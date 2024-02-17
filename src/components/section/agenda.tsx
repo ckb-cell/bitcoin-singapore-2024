@@ -1,11 +1,13 @@
 import Image from 'next/image';
 import Title from '../title';
 import agenda from '../../aganda.json';
+import speakers from '../../speakers.json';
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
 
 export default function AgendaSection() {
   return (
-    <div className="w-full py-20">
+    <div className="w-full py-20" id="agenda">
       <div className="relative h-[1536px]">
         <Image
           src="/agenda-background-left.png"
@@ -29,21 +31,35 @@ export default function AgendaSection() {
               'after:absolute after:top-0 after:left-0 after:border-b after:border-[#484D4E] after:w-full after:h-1 after:scale-y-75',
             )}
           >
-            {agenda.map((item, index) => (
-              <div
-                key={item.time}
-                className={cn('relative table-row text-[22px]', {
-                  'after:absolute after:bottom-0 after:left-0 after:border-b after:border-[#484D4E] after:w-full after:h-1 after:scale-y-75':
-                    index !== agenda.length - 1,
-                })}
-              >
-                <span className="table-cell w-[300px] pt-4 pb-7">{item.time}</span>
-                <span className="table-cell w-[440px] pt-4 pb-7">{item.title}</span>
-                <span className="table-cell text-right text-[#FF9900] pt-4 pb-7">
-                  {item.speaker}
-                </span>
-              </div>
-            ))}
+            {agenda.map((item, index) => {
+              const twitter = speakers.find((speaker) => speaker.name === item.speaker)?.twitter;
+              return (
+                <div
+                  key={item.time}
+                  className={cn('relative table-row text-[22px]', {
+                    'after:absolute after:bottom-0 after:left-0 after:border-b after:border-[#484D4E] after:w-full after:h-1 after:scale-y-75':
+                      index !== agenda.length - 1,
+                  })}
+                >
+                  <span className="table-cell w-[300px] pt-4 pb-7">{item.time}</span>
+                  <span className="table-cell w-[440px] pt-4 pb-7">{item.title}</span>
+                  {twitter ? (
+                    <span className="table-cell text-right text-[#FF9900] pt-4 pb-7">
+                      <Link
+                        href={`https://twitter.com/${twitter.replace('@', '')}`}
+                        target="_blank"
+                      >
+                        {item.speaker}
+                      </Link>
+                    </span>
+                  ) : (
+                    <span className="table-cell text-right text-[#FF9900] pt-4 pb-7">
+                      {item.speaker}
+                    </span>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
-import Image from "next/image";
-import Button from "../button";
-import TimeLocation from "../time-location";
+import Image from 'next/image';
+import Button from '../button';
+import TimeLocation from '../time-location';
+import Link from 'next/link';
 
 export default function HeroSection() {
   return (
@@ -16,13 +17,19 @@ export default function HeroSection() {
           <TimeLocation />
         </div>
         <div className="mt-6">
-          <Button>Register</Button>
+          <Link href="https://lu.ma/vobk70pd" target="_blank">
+            <Button>Register</Button>
+          </Link>
         </div>
         <div className="mt-6">
           <span>Host</span>
           <div className="flex gap-12 mt-4">
-            <Image src="/nervos.svg" alt="Nervos Network" width={60} height={40} />
-            <Image src="/abcde.svg" alt="ABCDE" width={52} height={40} />
+            <Link href="https://www.nervos.org" target="_blank">
+              <Image src="/nervos.svg" alt="Nervos Network" width={60} height={40} />
+            </Link>
+            <Link href="https://www.abcde.com" target="_blank">
+              <Image src="/abcde.svg" alt="ABCDE" width={52} height={40} />
+            </Link>
           </div>
         </div>
       </div>

@@ -30,7 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={fontArticulatCF.className}>
         <main className="bg-black text-white min-h-screen">
-          <div className="max-w-[1440px] mx-auto pt-[38px]">
+          <div className="max-w-[1440px] mx-auto">
             <Navbar />
             {children}
             <Footer />

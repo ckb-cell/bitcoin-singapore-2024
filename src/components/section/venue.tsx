@@ -1,10 +1,11 @@
 import Image from 'next/image';
 import TimeLocation from '../time-location';
 import Title from '../title';
+import Link from 'next/link';
 
 export default function VenueSection() {
   return (
-    <div className="w-full py-52">
+    <div className="w-full py-52" id="venue">
       <div className="relative h-[480px]">
         <Image
           src="/venue-background-left.png"
@@ -25,7 +26,9 @@ export default function VenueSection() {
             <div className="flex-1">
               <Title>Venue</Title>
               <div className="mt-4">
-                <Image src="/venue-map.png" alt="Google Map" width={384} height={288} />
+                <Link href="https://maps.app.goo.gl/aTuFYwLrg49qff5z9" target="_blank">
+                  <Image src="/venue-map.png" alt="Google Map" width={384} height={288} />
+                </Link>
               </div>
               <div className="mt-4">
                 <TimeLocation />
