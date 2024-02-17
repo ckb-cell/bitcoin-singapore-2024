@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Jeffrey Hu",
+    "avatar": "/speaker-jeffrey-hu.png",
+    "twitter": "@hu_zhiwei",
+    "description": [
+      "Tech Lead, HashKey Capital"
+    ]
+  },
+  {
+    "name": "Mi Zeng",
+    "avatar": "/speaker-mi-zeng.png",
+    "twitter": "@zengmi2140",
+    "description": [
+      "Contributor, BTCStudy"
+    ]
+  },
+  {
+    "name": "Octoshi",
+    "avatar": "/speaker-octoshi.png",
+    "twitter": "@realoctoshi",
+    "description": [
+      "Bitcoiner"
+    ]
+  },
+  {
+    "name": "Ben77",
+    "avatar": "/speaker-ben77.png",
+    "twitter": "@blapta",
+    "description": [
+      "Founder, Discoco Labs",
+      "Contributor, TaprootAssets"
+    ]
+  },
+  {
+    "name": "Philipp Hoenisch",
+    "avatar": "/speaker-philipp-hoenisch.png",
+    "twitter": "@bonomat",
+    "description": [
+      "Founder, 10101 Finance"
+    ]
+  },
+  {
+    "name": "Shaoping Zhang",
+    "avatar": "/speaker-shaoping-zhang.png",
+    "twitter": "@shaopingzhang",
+    "description": [
+      "Co-Founder, Spark Pool"
+    ]
+  },
+  {
+    "name": "Jan Xie",
+    "avatar": "/speaker-jan-xie.png",
+    "twitter": "@busyforking",
+    "description": [
+      "Architect, CKB"
+    ]
+  },
+  {
+    "name": "Cipher Wang",
+    "avatar": "/speaker-cipher-wang.png",
+    "twitter": "@crypcipher",
+    "description": [
+      "Founder, CELL Studio",
+      "Co-Founder, CKB",
+      "Author, RGB++ Protocol"
+    ]
+  }
+]

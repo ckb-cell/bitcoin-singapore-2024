@@ -1,0 +1,87 @@
+[
+  {
+    "time": "12:00-12:30",
+    "title": "Registration",
+    "speaker": ""
+  },
+  {
+    "time": "12:30-12:40",
+    "title": "Opening Remarks",
+    "speaker": ""
+  },
+  {
+    "time": "12:40-13:00",
+    "title": "Covenants",
+    "speaker": "Jeffrey Hu"
+  },
+  {
+    "time": "13:00-13:20",
+    "title": "The Current Situation and Future of Self-custody Wallets",
+    "speaker": "Mi Zeng"
+  },
+  {
+    "time": "13:20-13:40",
+    "title": "User Experience and Optimization of Lightning Network or LSPS",
+    "speaker": "Octoshi"
+  },
+  {
+    "time": "13:40-14:00",
+    "title": "Client Validation Protocols and Assets",
+    "speaker": "Ben77"
+  },
+  {
+    "time": "14:00-14:20",
+    "title": "Discreet Log Contracts DLC",
+    "speaker": "Philipp Hoenisch"
+  },
+  {
+    "time": "14:20-15:00",
+    "title": "Panel",
+    "speaker": ""
+  },
+  {
+    "time": "15:00-15:30",
+    "title": "Tea Break",
+    "speaker": ""
+  },
+  {
+    "time": "15:30-15:50",
+    "title": "Ecash",
+    "speaker": "Shaoping Zhang"
+  },
+  {
+    "time": "15:50-16:10",
+    "title": "Bitcoin as Digital Terrain",
+    "speaker": "Yilin Hu"
+  },
+  {
+    "time": "16:10-16:30",
+    "title": "Beauty and Philosophy of UTXO",
+    "speaker": "Jan Xie"
+  },
+  {
+    "time": "16:30-17:10",
+    "title": "Panel",
+    "speaker": ""
+  },
+  {
+    "time": "17:10-17:30",
+    "title": "RGB Asset Protocol",
+    "speaker": "Cipher Wang"
+  },
+  {
+    "time": "17:30-17:50",
+    "title": "Keynote",
+    "speaker": ""
+  },
+  {
+    "time": "17:50-18:00",
+    "title": "Closing",
+    "speaker": ""
+  },
+  {
+    "time": "18:00-20:00",
+    "title": "Dinner & Social Network",
+    "speaker": ""
+  }
+]
