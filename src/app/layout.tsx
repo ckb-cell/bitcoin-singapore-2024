@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-black">
       <body className={fontArticulatCF.className}>
         <main className="bg-black text-white min-h-screen">
           <div className="px-5 sm:px-8">
