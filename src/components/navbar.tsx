@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import LanguageSwitch from './language-switch';
 import { NAV_ITEMS } from '../constants';
+import { Suspense } from 'react';
 
 export default function Navbar() {
   return (
@@ -18,7 +19,9 @@ export default function Navbar() {
         </ul>
         <div className="flex items-center gap-9">
           <Image src="/telegram.svg" alt="Telegram" width={20} height={20} />
-          <LanguageSwitch />
+          <Suspense>
+            <LanguageSwitch />
+          </Suspense>
         </div>
       </nav>
     </div>
