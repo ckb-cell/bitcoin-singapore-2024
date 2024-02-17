@@ -41,10 +41,10 @@ export default function AgendaSection() {
                       index !== agenda.length - 1,
                   })}
                 >
-                  <span className="table-cell w-[300px] pt-4 pb-6">{item.time}</span>
-                  <span className="table-cell w-[440px] pt-4 pb-6">{item.title}</span>
+                  <span className="table-cell w-[300px] pt-4 pb-7">{item.time}</span>
+                  <span className="table-cell w-[440px] pt-4 pb-7">{item.title}</span>
                   {twitter ? (
-                    <span className="table-cell text-right text-[#FF9900] pt-4 pb-6">
+                    <span className="table-cell text-right text-[#FF9900] pt-4 pb-7">
                       <Link
                         href={`https://twitter.com/${twitter.replace('@', '')}`}
                         target="_blank"
