@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 export default function VenueSection() {
   return (
-    <div className="w-full py-52" id="venue">
-      <div className="relative h-[480px]">
+    <div className="w-full py-48" id="venue">
+      <div className="relative min-h-[480px]">
         <Image
           src="/venue-background-left.png"
           alt="venue"
@@ -22,10 +22,10 @@ export default function VenueSection() {
           height={480}
         />
         <div className="max-w-[1240px] mx-auto px-24">
-          <div className="flex">
+          <div className="flex flex-col items-center lg:flex-row lg:items-start gap-4">
             <div className="flex-1">
               <Title>Venue</Title>
-              <div className="mt-4">
+              <div className="mt-1">
                 <Link href="https://maps.app.goo.gl/aTuFYwLrg49qff5z9" target="_blank">
                   <Image src="/venue-map.png" alt="Google Map" width={384} height={288} />
                 </Link>
@@ -34,7 +34,7 @@ export default function VenueSection() {
                 <TimeLocation />
               </div>
             </div>
-            <div className="w-[576px] h-[480px]">
+            <div className="max-w-[576px] max-h-[480px]">
               <Image src="/venue-photo.png" alt="Venue" width={576} height={480} />
             </div>
           </div>

@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 export default function AboutSection() {
   return (
-    <div className="w-full h-[1032px] bg-[url(/about-background.png)] bg-cover bg-center pt-[360px]">
+    <div className="w-full min-h-[1032px] bg-[url(/about-background.png)] bg-cover bg-center pt-[360px]">
       <div className="max-w-[1240px] mx-auto">
-        <div className="flex gap-12 mb-[96px]">
+        <div className="flex flex-col items-center lg:items-start lg:flex-row gap-12 mb-[80px]">
           <div className="flex-1">
             <p className="text-[28px]">
               <span className="text-[#FF9900]">Bitcoin</span>

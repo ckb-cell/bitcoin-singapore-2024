@@ -23,7 +23,9 @@ export default function Navbar() {
               <Image src="/telegram.svg" alt="Telegram" width={20} height={20} />
             </Link>
             <Suspense>
-              <LanguageSwitch />
+              <div className="hidden lg:block">
+                <LanguageSwitch />
+              </div>
             </Suspense>
           </div>
         </nav>

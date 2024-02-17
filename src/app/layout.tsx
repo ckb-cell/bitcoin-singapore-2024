@@ -30,10 +30,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={fontArticulatCF.className}>
         <main className="bg-black text-white min-h-screen">
-          <div className="max-w-[1440px] mx-auto">
-            <Navbar />
-            {children}
-            <Footer />
+          <div className="px-5 sm:px-8">
+            <div className="max-w-[1440px] mx-auto">
+              <Navbar />
+              {children}
+              <Footer />
+            </div>
           </div>
         </main>
       </body>

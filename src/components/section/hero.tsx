@@ -5,13 +5,13 @@ import Link from 'next/link';
 
 export default function HeroSection() {
   return (
-    <div className="w-full h-[540px] bg-[url(/key-vision-top.svg)] bg-right-bottom bg-contain bg-no-repeat">
+    <div className="w-full h-[480px] lg:h-[540px] bg-[url(/key-vision-top.svg)] bg-right-bottom bg-contain bg-no-repeat">
       <div className="container max-w-[1240px] mx-auto pt-2">
         <div>
-          <h1 className="text-8xl font-bold">
+          <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold">
             <span className="text-[#FF9900]">Bitcoin</span> Singapore <br />
           </h1>
-          <span className="block text-8xl font-bold mt-2">2024</span>
+          <span className="block text-5xl sm:text-6xl lg:text-8xl font-bold mt-2">2024</span>
         </div>
         <div className="mt-4">
           <TimeLocation />
