@@ -34,7 +34,7 @@ export default function SpeakersSection() {
                   className="rounded-[10px]"
                 />
                 <span className="-mt-3 text-[22px]">{speaker.name}</span>
-                <Link href={`https://twitter.com/${speaker.twitter.replace('@', '')}`}>
+                <Link href={`https://twitter.com/${speaker.twitter.replace('@', '')}`} target="_blank">
                   <div className="bg-gradient-to-r from-[#FF9900] to-white p-[1px] rounded-full mt-1">
                     <div className="bg-black rounded-full px-[10px] py-[2px] flex items-center gap-[6px]">
                       <Image src="/x.svg" alt="Twitter" width={12} height={12} />

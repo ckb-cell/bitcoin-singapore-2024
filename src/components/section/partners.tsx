@@ -25,10 +25,10 @@ export default function PartnersSection() {
           <div className="w-full flex flex-col items-center mt-8">
             <h3 className="text-[32px]">Host</h3>
             <div className="flex gap-12 mt-10">
-              <Link href="https://www.nervos.org" target="_blank">
+              <Link href="https://twitter.com/NervosNetwork" target="_blank">
                 <Image src="/nervos.svg" alt="Nervos Network" width={155} height={100} />
               </Link>
-              <Link href="https://www.abcde.com" target="_blank">
+              <Link href="https://twitter.com/ABCDELabs" target="_blank">
                 <Image src="/abcde.svg" alt="ABCDE" width={135} height={100} />
               </Link>
             </div>
