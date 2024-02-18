@@ -13,13 +13,15 @@ export interface Speaker {
 function Speaker({ speaker }: { speaker: Speaker }) {
   return (
     <div className="flex w-[200px] flex-col items-center">
-      <Image
-        src={speaker.avatar}
-        alt={speaker.name}
-        width={182}
-        height={182}
-        className="rounded-[10px]"
-      />
+      <Link href={`https://twitter.com/${speaker.twitter.replace('@', '')}`} target="_blank">
+        <Image
+          src={speaker.avatar}
+          alt={speaker.name}
+          width={182}
+          height={182}
+          className="rounded-[10px]"
+        />
+      </Link>
       <span className="-mt-3 text-[22px]">{speaker.name}</span>
       <Link href={`https://twitter.com/${speaker.twitter.replace('@', '')}`} target="_blank">
         <div className="bg-gradient-to-r from-[#FF9900] to-white p-[1px] rounded-full mt-1">
@@ -65,7 +67,10 @@ export default function SpeakersSection() {
           <Title>Speakers</Title>
           <div className="flex flex-col gap-10 mt-16">
             {Array.from({ length: rows }).map((_, index) => (
-              <div key={`speakers_row_${index}`} className="flex w-full justify-center gap-y-10 gap-x-20">
+              <div
+                key={`speakers_row_${index}`}
+                className="flex w-full justify-center gap-y-10 gap-x-20"
+              >
                 {speakers.slice(index * 4, (index + 1) * 4).map((speaker) => (
                   <Speaker key={speaker.name} speaker={speaker} />
                 ))}
