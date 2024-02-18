@@ -24,7 +24,7 @@ export default function PartnersSection() {
         <div className="max-w-[1240px] mx-auto px-24">
           <Title>Partners</Title>
           <div className="w-full flex flex-col items-center mt-8">
-            <h3 className="text-[36px] font-semibold">Host</h3>
+            <h3 className="text-[36px]">Host</h3>
             <div className="flex gap-12 items-center mt-10">
               {partners.host.map((partner) => (
                 <Link key={partner.name} href={partner.link} target="_blank">
