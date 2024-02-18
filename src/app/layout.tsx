@@ -18,7 +18,7 @@ const fontArticulatCF = localFont({
 export const metadata: Metadata = {
   title: 'Bitcoin Singapore 2024',
   description:
-    'a one-day conference focused on the latest developments in the Bitcoin community and dispel the myths that Ethereum had imposed on us in the past.',
+    'A one-day conference focused on the latest developments in the Bitcoin community and dispel the myths that Ethereum had imposed on us in the past.',
 };
 
 export default function RootLayout({
