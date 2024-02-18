@@ -12,18 +12,18 @@ export default function AgendaSection() {
         <Image
           src="/agenda-background-left.png"
           alt="agenda"
-          className="absolute top-0 left-0"
+          className="hidden lg:block absolute top-0 left-0"
           width={96}
           height={1727}
         />
         <Image
           src="/agenda-background-right.png"
           alt="agenda"
-          className="absolute top-0 right-0"
+          className="hidden lg:block absolute top-0 right-0"
           width={96}
           height={1727}
         />
-        <div className="max-w-[1240px] mx-auto px-24">
+        <div className="lg:max-w-[1240px] mx-auto px-32 xl:px-24">
           <Title>Agenda</Title>
           <div
             className={cn(

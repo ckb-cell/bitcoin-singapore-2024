@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function HeroSection() {
   return (
     <div className="w-full h-[480px] lg:h-[540px] bg-[url(/key-vision-top.svg)] bg-right-bottom bg-contain bg-no-repeat">
-      <div className="container max-w-[1240px] mx-auto pt-2">
+      <div className="container max-w-[1240px] mx-auto">
         <div>
           <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold">
             <span className="text-[#FF9900]">Bitcoin</span> Singapore <br />

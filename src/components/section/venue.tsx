@@ -10,18 +10,18 @@ export default function VenueSection() {
         <Image
           src="/venue-background-left.png"
           alt="venue"
-          className="absolute top-0 left-0"
+          className="hidden lg:block absolute top-0 left-0"
           width={96}
           height={480}
         />
         <Image
           src="/venue-background-right.png"
           alt="venue"
-          className="absolute top-0 right-0"
+          className="hidden lg:block absolute top-0 right-0"
           width={96}
           height={480}
         />
-        <div className="max-w-[1240px] mx-auto px-24">
+        <div className="max-w-[1240px] mx-auto px-32 xl:px-24">
           <div className="flex flex-col items-center lg:flex-row lg:items-start gap-4">
             <div className="flex-1">
               <Title>Venue</Title>

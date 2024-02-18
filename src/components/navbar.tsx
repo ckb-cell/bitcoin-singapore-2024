@@ -6,7 +6,7 @@ import { Suspense } from 'react';
 
 export default function Navbar() {
   return (
-    <div className="sticky pt-[38px] top-0 left-0 w-full invert-0 mix-blend-difference transition z-50">
+    <div className="sticky top-0 left-0 w-full bg-black z-50 py-4">
       <div className="container max-w-[1240px] mx-auto">
         <nav className="flex justify-between">
           <ul className="flex gap-10 items-center">

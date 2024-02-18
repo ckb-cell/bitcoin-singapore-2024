@@ -51,18 +51,18 @@ export default function SpeakersSection() {
         <Image
           src="/speakers-background-left.png"
           alt="speakers"
-          className="absolute top-0 left-0"
+          className="hidden lg:block absolute top-0 left-0"
           width={96}
           height={1344}
         />
         <Image
           src="/speakers-background-right.png"
           alt="speakers"
-          className="absolute top-0 right-0"
+          className="hidden lg:block absolute top-0 right-0"
           width={96}
           height={1344}
         />
-        <div className="max-w-[1240px] mx-auto px-24">
+        <div className="max-w-[1240px] mx-auto px-32 xl:px-24">
           <Title>Speakers</Title>
           <div className="flex flex-col gap-10 mt-16">
             {Array.from({ length: rows }).map((_, index) => (

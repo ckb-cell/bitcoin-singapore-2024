@@ -22,6 +22,9 @@ const description =
 export const metadata: Metadata = {
   title,
   description,
+  icons: [
+    '/favicon.jpg',
+  ],
   openGraph: {
     title,
     description,
@@ -48,7 +51,7 @@ export default function RootLayout({
       <body className={fontArticulatCF.className}>
         <main className="bg-black text-white min-h-screen selection:bg-[#FF9900]">
           <div className="px-5 sm:px-8">
-            <div className="max-w-[1440px] mx-auto">
+            <div className="max-w-[1440px] mx-auto pt-4">
               <Navbar />
               {children}
               <Footer />
