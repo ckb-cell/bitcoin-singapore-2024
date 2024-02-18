@@ -88,5 +88,11 @@
     "twitter": "@epr510",
     "description": ["Associate Professor, Tsinghua University", "Founder, Hesuan Dao"],
     "avatar": "/speaker-yilin-hu.png"
+  },
+  {
+    "name": "Yong Yu",
+    "twitter": "@yyforyongyu",
+    "description": ["Infrastructure Engineer, ", "Lightning Labs"],
+    "avatar": "/speaker-yong-yu.png"
   }
 ]
