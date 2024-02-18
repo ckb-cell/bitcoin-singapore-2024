@@ -8,20 +8,20 @@ import Link from 'next/link';
 export default function AgendaSection() {
   return (
     <div className="w-full py-20" id="agenda">
-      <div className="relative h-[1536px]">
+      <div className="relative h-[1727px]">
         <Image
           src="/agenda-background-left.png"
           alt="agenda"
           className="absolute top-0 left-0"
           width={96}
-          height={1536}
+          height={1727}
         />
         <Image
           src="/agenda-background-right.png"
           alt="agenda"
           className="absolute top-0 right-0"
           width={96}
-          height={1536}
+          height={1727}
         />
         <div className="max-w-[1240px] mx-auto px-24">
           <Title>Agenda</Title>

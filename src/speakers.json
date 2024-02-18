@@ -1,69 +1,92 @@
 [
   {
-    "name": "Jeffrey Hu",
-    "avatar": "/speaker-jeffrey-hu.png",
-    "twitter": "@hu_zhiwei",
-    "description": [
-      "Tech Lead, HashKey Capital"
-    ]
-  },
-  {
-    "name": "Mi Zeng",
-    "avatar": "/speaker-mi-zeng.png",
-    "twitter": "@zengmi2140",
-    "description": [
-      "Contributor, BTCStudy"
-    ]
-  },
-  {
-    "name": "Octoshi",
-    "avatar": "/speaker-octoshi.png",
-    "twitter": "@realoctoshi",
-    "description": [
-      "Bitcoiner"
-    ]
+    "name": "Arnaud",
+    "twitter": "@arnaudthephilos",
+    "description": ["Board Member, LNP/BP Association"],
+    "avatar": "/speaker-arnaud.png"
   },
   {
     "name": "Ben77",
-    "avatar": "/speaker-ben77.png",
     "twitter": "@blapta",
-    "description": [
-      "Founder, Discoco Labs",
-      "Contributor, TaprootAssets"
-    ]
+    "description": ["Founder, Discooco Labs", "Contributor, TaprootAssets"],
+    "avatar": "/speaker-ben77.png"
   },
   {
-    "name": "Philipp Hoenisch",
-    "avatar": "/speaker-philipp-hoenisch.png",
-    "twitter": "@bonomat",
-    "description": [
-      "Founder, 10101 Finance"
-    ]
-  },
-  {
-    "name": "Shaoping Zhang",
-    "avatar": "/speaker-shaoping-zhang.png",
-    "twitter": "@shaopingzhang",
-    "description": [
-      "Co-Founder, Spark Pool"
-    ]
-  },
-  {
-    "name": "Jan Xie",
-    "avatar": "/speaker-jan-xie.png",
-    "twitter": "@busyforking",
-    "description": [
-      "Architect, CKB"
-    ]
+    "name": "BMAN",
+    "twitter": "@BMANLead",
+    "description": ["Co-Founder & Managing Partner, ABCDE"],
+    "avatar": "/speaker-bman.png"
   },
   {
     "name": "Cipher Wang",
-    "avatar": "/speaker-cipher-wang.png",
     "twitter": "@crypcipher",
-    "description": [
-      "Founder, CELL Studio",
-      "Co-Founder, CKB",
-      "Author, RGB++ Protocol"
-    ]
+    "description": ["Founder, CELL Studio", "Author, RGB++ Protocol"],
+    "avatar": "/speaker-cipher-wang.png"
+  },
+  {
+    "name": "Jeffrey Hu",
+    "twitter": "@hu_zhiwei",
+    "description": ["Tech Lead, HashKey Capital"],
+    "avatar": "/speaker-jeffrey-hu.png"
+  },
+  {
+    "name": "Jan Xie",
+    "twitter": "@busyforking",
+    "description": ["Chief, Cryptape Architect, Nervos"],
+    "avatar": "/speaker-jan-xie.png"
+  },
+  {
+    "name": "Matt Quinn",
+    "twitter": "@matt_bitcoin",
+    "description": ["Executive Director, Nervos Foundation"],
+    "avatar": "/speaker-matt-quinn.png"
+  },
+  {
+    "name": "Mi Zeng",
+    "twitter": "@zengmi2140",
+    "description": ["Contributor, BTCStudy"],
+    "avatar": "/speaker-mi-zeng.png"
+  },
+  {
+    "name": "Octoshi",
+    "twitter": "@realoctoshi",
+    "description": ["Bitcoiner"],
+    "avatar": "/speaker-octoshi.png"
+  },
+  {
+    "name": "Philipp Hoenisch",
+    "twitter": "@bonomat",
+    "description": ["Founder, 10101 Finance"],
+    "avatar": "/speaker-philipp-hoenisch.png"
+  },
+  {
+    "name": "Ren Zhang",
+    "twitter": "@nirenzang",
+    "description": ["Vanguard, Cryptape Researcher, Nervos"],
+    "avatar": "/speaker-ren-zhang.png"
+  },
+  {
+    "name": "Retric Su",
+    "twitter": "@realdigimonkey",
+    "description": ["Developer Advocate, Cryptape"],
+    "avatar": "/speaker-retric-su.png"
+  },
+  {
+    "name": "Shaoping Zhang",
+    "twitter": "@shaopingzhang",
+    "description": ["Co-Founder, Spark Pool"],
+    "avatar": "/speaker-shaoping-zhang.png"
+  },
+  {
+    "name": "Super Testnet",
+    "twitter": "@super_testnet",
+    "description": ["Freelance Dev Focused on BTC"],
+    "avatar": "/speaker-super-testnet.png"
+  },
+  {
+    "name": "Yilin Hu",
+    "twitter": "@epr510",
+    "description": ["Associate Professor, Tsinghua University", "Founder, Hesuan Dao"],
+    "avatar": "/speaker-yilin-hu.png"
   }
 ]

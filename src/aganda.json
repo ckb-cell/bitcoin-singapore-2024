@@ -5,79 +5,84 @@
     "speaker": ""
   },
   {
-    "time": "12:30-12:40",
-    "title": "Opening Remarks",
+    "time": "12:30-12:35",
+    "title": "Opening",
     "speaker": ""
   },
   {
-    "time": "12:40-13:00",
+    "time": "12:35-12:50",
+    "title": "Why We Follow Satoshi?",
+    "speaker": "Matt Quinn"
+  },
+  {
+    "time": "12:50-13:10",
     "title": "Covenants",
     "speaker": "Jeffrey Hu"
   },
   {
-    "time": "13:00-13:20",
+    "time": "13:10-13:30",
     "title": "The Current Situation and Future of Self-custody Wallets",
     "speaker": "Mi Zeng"
   },
   {
-    "time": "13:20-13:40",
+    "time": "13:30-13:50",
     "title": "User Experience and Optimization of Lightning Network or LSPS",
     "speaker": "Octoshi"
   },
   {
-    "time": "13:40-14:00",
+    "time": "13:50-14:10",
     "title": "Client Validation Protocols and Assets",
     "speaker": "Ben77"
   },
   {
-    "time": "14:00-14:20",
-    "title": "Discreet Log Contracts DLC",
-    "speaker": "Philipp Hoenisch"
-  },
-  {
-    "time": "14:20-15:00",
-    "title": "Panel",
-    "speaker": ""
-  },
-  {
-    "time": "15:00-15:30",
-    "title": "Tea Break",
-    "speaker": ""
-  },
-  {
-    "time": "15:30-15:50",
+    "time": "14:10-14:30",
     "title": "Ecash",
     "speaker": "Shaoping Zhang"
   },
   {
-    "time": "15:50-16:10",
+    "time": "14:30-14:50",
+    "title": "Discreet Log Contracts DLC",
+    "speaker": "Philipp Hoenisch"
+  },
+  {
+    "time": "14:50-15:20",
+    "title": "Tea Break",
+    "speaker": ""
+  },
+  {
+    "time": "15:20-15:40",
+    "title": "BitVM",
+    "speaker": "Super Testnet"
+  },
+  {
+    "time": "15:40-16:00",
+    "title": "POW vs. POS",
+    "speaker": "Ren Zhang"
+  },
+  {
+    "time": "16:00-16:20",
     "title": "Bitcoin as Digital Terrain",
     "speaker": "Yilin Hu"
   },
   {
-    "time": "16:10-16:30",
-    "title": "Beauty and Philosophy of UTXO",
-    "speaker": "Jan Xie"
-  },
-  {
-    "time": "16:30-17:10",
-    "title": "Panel",
-    "speaker": ""
-  },
-  {
-    "time": "17:10-17:30",
+    "time": "16:20-16:40",
     "title": "RGB Asset Protocol",
+    "speaker": "Arnaud"
+  },
+  {
+    "time": "16:40-17:00",
+    "title": "Overview and Prospects of the RGB++ Protocol",
     "speaker": "Cipher Wang"
   },
   {
-    "time": "17:30-17:50",
-    "title": "Keynote",
-    "speaker": ""
+    "time": "17:00-17:20",
+    "title": "The Current Status and Issues of Nostr's Ecological Development",
+    "speaker": "Retric Su"
   },
   {
-    "time": "17:50-18:00",
-    "title": "Closing",
-    "speaker": ""
+    "time": "17:20-18:00",
+    "title": "Panel: Challenges and Difficulties Faced by Chinese Builders in the BTC Ecosystem",
+    "speaker": "Moderator: BMAN Jan Xie"
   },
   {
     "time": "18:00-20:00",
