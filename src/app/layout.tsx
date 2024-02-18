@@ -15,10 +15,19 @@ const fontArticulatCF = localFont({
   preload: true,
 });
 
+const title = 'Bitcoin Singapore 2024';
+const description =
+  'A one-day conference focused on the latest developments in the Bitcoin community and dispel the myths that Ethereum had imposed on us in the past.';
+
 export const metadata: Metadata = {
-  title: 'Bitcoin Singapore 2024',
-  description:
-    'A one-day conference focused on the latest developments in the Bitcoin community and dispel the myths that Ethereum had imposed on us in the past.',
+  title,
+  description,
+  openGraph: {
+    type: 'website',
+    title,
+    description,
+    images: ['/og.png'],
+  },
 };
 
 export default function RootLayout({
