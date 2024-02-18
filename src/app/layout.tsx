@@ -23,7 +23,15 @@ export const metadata: Metadata = {
   title,
   description,
   openGraph: {
+    title,
+    description,
     type: 'website',
+    siteName: title,
+    url: 'https://btc-singapore.com',
+    images: ['/og.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
     title,
     description,
     images: ['/og.png'],
