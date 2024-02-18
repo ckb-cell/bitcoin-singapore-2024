@@ -44,7 +44,7 @@ export default function AgendaSection() {
                   <span className="table-cell w-[440px] pt-4 pb-7">{item.title}</span>
                   <div className="table-cell text-right text-[#FF9900] pt-4 pb-7">
                     {item.speaker.map((name) => {
-                      const twitter = speakers.find((speaker) => speaker.name === name)?.twitter;
+                      const twitter = speakers.find((speaker) => name.includes(speaker.name))?.twitter;
                       if (twitter) {
                         return (
                           <p key={name}>
