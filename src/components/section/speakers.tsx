@@ -32,10 +32,9 @@ function Speaker({ speaker }: { speaker: Speaker }) {
         </div>
       </Link>
       <div className="text-center font-light mt-2 leading-tight whitespace-nowrap">
-        {speaker.description.map((desc, index) => (
+        {speaker.description.map((desc) => (
           <p key={desc}>
             {desc}
-            {index !== speaker.description.length - 1 ? ';' : ''}
           </p>
         ))}
       </div>
