@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-black">
       <body className={fontArticulatCF.className}>
-        <main className="bg-black text-white min-h-screen">
+        <main className="bg-black text-white min-h-screen selection:bg-[#FF9900]">
           <div className="px-5 sm:px-8">
             <div className="max-w-[1440px] mx-auto">
               <Navbar />
