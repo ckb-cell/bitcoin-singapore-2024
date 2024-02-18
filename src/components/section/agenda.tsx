@@ -32,7 +32,6 @@ export default function AgendaSection() {
             )}
           >
             {agenda.map((item, index) => {
-              const twitter = speakers.find((speaker) => speaker.name === item.speaker)?.twitter;
               return (
                 <div
                   key={item.time}
@@ -43,20 +42,24 @@ export default function AgendaSection() {
                 >
                   <span className="table-cell w-[300px] pt-4 pb-7">{item.time}</span>
                   <span className="table-cell w-[440px] pt-4 pb-7">{item.title}</span>
-                  {twitter ? (
-                    <span className="table-cell text-right text-[#FF9900] pt-4 pb-7">
-                      <Link
-                        href={`https://twitter.com/${twitter.replace('@', '')}`}
-                        target="_blank"
-                      >
-                        {item.speaker}
-                      </Link>
-                    </span>
-                  ) : (
-                    <span className="table-cell text-right text-[#FF9900] pt-4 pb-7">
-                      {item.speaker}
-                    </span>
-                  )}
+                  <div className="table-cell text-right text-[#FF9900] pt-4 pb-7">
+                    {item.speaker.map((name) => {
+                      const twitter = speakers.find((speaker) => speaker.name === name)?.twitter;
+                      if (twitter) {
+                        return (
+                          <p key={name}>
+                            <Link
+                              href={`https://twitter.com/${twitter.replace('@', '')}`}
+                              target="_blank"
+                            >
+                              {name}
+                            </Link>
+                          </p>
+                        );
+                      }
+                      return <p key={name}>{name}</p>;
+                    })}
+                  </div>
                 </div>
               );
             })}
