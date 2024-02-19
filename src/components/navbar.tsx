@@ -22,7 +22,7 @@ export default function Navbar() {
             <Link href="https://t.me/btcsingapore2024" target="_blank">
               <Image src="/telegram.svg" alt="Telegram" width={20} height={20} />
             </Link>
-            <Suspense>
+            <Suspense fallback={<div className="h-[70px]" />}>
               <div className="hidden lg:block">
                 <LanguageSwitch />
               </div>
