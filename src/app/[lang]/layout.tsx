@@ -1,16 +1,17 @@
 import type { Metadata } from 'next';
 import Navbar from '@/components/navbar';
 import localFont from 'next/font/local';
-import './globals.css';
 import Footer from '@/components/footer';
+import { setLocale } from '@/lib/context';
+import '../globals.css';
 
 const fontArticulatCF = localFont({
   src: [
-    { path: '../styles/fonts/ArticulatCF-Normal.woff2', weight: '400' },
-    { path: '../styles/fonts/ArticulatCF-Medium.woff2', weight: '500' },
-    { path: '../styles/fonts/ArticulatCF-DemiBold.woff2', weight: '600' },
-    { path: '../styles/fonts/ArticulatCF-Bold.woff2', weight: '700' },
-    { path: '../styles/fonts/ArticulatCF-ExtraBold.woff2', weight: '800' },
+    { path: '../../styles/fonts/ArticulatCF-Normal.woff2', weight: '400' },
+    { path: '../../styles/fonts/ArticulatCF-Medium.woff2', weight: '500' },
+    { path: '../../styles/fonts/ArticulatCF-DemiBold.woff2', weight: '600' },
+    { path: '../../styles/fonts/ArticulatCF-Bold.woff2', weight: '700' },
+    { path: '../../styles/fonts/ArticulatCF-ExtraBold.woff2', weight: '800' },
   ],
   preload: true,
 });
@@ -43,11 +44,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: { lang: string };
 }>) {
+  console.log(params);
+  setLocale(params.lang as 'en' | 'zh');
+
   return (
-    <html lang="en" className="bg-black">
+    <html lang={params.lang} className="bg-black">
       <body className={fontArticulatCF.className}>
         <main className="bg-black text-white min-h-screen selection:bg-[#FF9900]">
           <div className="px-5 sm:px-8">

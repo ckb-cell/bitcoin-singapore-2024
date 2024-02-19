@@ -4,8 +4,13 @@ import Button from './button';
 import { cn } from '@/lib/utils';
 import { NAV_ITEMS } from '../constants';
 import Link from 'next/link';
+import { getLocale } from '@/lib/context';
+import { getDictionary } from '@/lib/dictionaries';
 
-export default function Footer() {
+export default async function Footer() {
+  const local = getLocale();
+  const dictionary = await getDictionary(local);
+
   return (
     <div className="w-full pt-52">
       <div
@@ -20,7 +25,7 @@ export default function Footer() {
               {NAV_ITEMS.map((item) => (
                 <li key={item.label}>
                   <Link className="text-xl" href={item.href}>
-                    {item.label}
+                    {dictionary[item.label as keyof typeof dictionary]}
                   </Link>
                 </li>
               ))}
@@ -39,12 +44,12 @@ export default function Footer() {
             </div>
             <div className="mt-4">
               <Link href="https://lu.ma/vobk70pd" target="_blank">
-                <Button>Register</Button>
+                <Button>{dictionary.register}</Button>
               </Link>
             </div>
           </div>
           <div className="flex-1 flex flex-col items-end gap-5">
-            <span className="text-xl font-bold">Cooperation</span>
+            <span className="text-xl font-bold">{dictionary.cooperation}</span>
             <Link href="https://t.me/gracegui43" target="_blank" className="flex items-center">
               <span className="text-xl mr-2">Tetegram</span>
               <Image src="/open-link.svg" alt="Telegram" width={14} height={14} />

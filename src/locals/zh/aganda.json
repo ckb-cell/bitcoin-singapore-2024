@@ -1,0 +1,121 @@
+[
+  {
+    "time": "12:00-12:30",
+    "title": "签到",
+    "speaker": []
+  },
+  {
+    "time": "12:30-12:35",
+    "title": "开场",
+    "speaker": []
+  },
+  {
+    "time": "12:35-12:50",
+    "title": "我们为什么追随中本聪？",
+    "speaker": [
+      "Matt Quinn"
+    ]
+  },
+  {
+    "time": "12:50-13:10",
+    "title": "Covenants（限制条款）",
+    "speaker": [
+      "胡智威"
+    ]
+  },
+  {
+    "time": "13:10-13:30",
+    "title": "自主保管钱包的现状和未来",
+    "speaker": [
+      "曾汨"
+    ]
+  },
+  {
+    "time": "13:30-13:50",
+    "title": "闪电网络的用户体验和优化（LSPS）",
+    "speaker": [
+      "Octoshi"
+    ]
+  },
+  {
+    "time": "13:50-14:10",
+    "title": "客户端验证协议与资产",
+    "speaker": [
+      "Ben77"
+    ]
+  },
+  {
+    "time": "14:10-14:30",
+    "title": "Ecash（电子现金）",
+    "speaker": [
+      "张少平"
+    ]
+  },
+  {
+    "time": "14:30-14:50",
+    "title": "谨慎日志合约",
+    "speaker": [
+      "Philipp Hoenisch"
+    ]
+  },
+  {
+    "time": "14:50-15:20",
+    "title": "茶歇",
+    "speaker": []
+  },
+  {
+    "time": "15:20-15:40",
+    "title": "BitVM",
+    "speaker": [
+      "Super Testnet"
+    ]
+  },
+  {
+    "time": "15:40-16:00",
+    "title": "POW vs. POS",
+    "speaker": [
+      "张韧"
+    ]
+  },
+  {
+    "time": "16:00-16:20",
+    "title": "比特币作为数字地形",
+    "speaker": [
+      "胡翌霖"
+    ]
+  },
+  {
+    "time": "16:20-16:40",
+    "title": "RGB 资产协议",
+    "speaker": [
+      "Arnaud"
+    ]
+  },
+  {
+    "time": "16:40-17:00",
+    "title": "RGB++ 协议的概述与展望",
+    "speaker": [
+      "Cipher Wang"
+    ]
+  },
+  {
+    "time": "17:00-17:20",
+    "title": "Nostr 生态发展现状及问题",
+    "speaker": [
+      "Retric Su"
+    ]
+  },
+  {
+    "time": "17:20-18:00",
+    "title": "圆桌论坛：在 BTC 生态中华语建设者面临的挑战与困难",
+    "speaker": [
+      "主持人：BMAN",
+      "Jan Xie"
+    ]
+  },
+  {
+    "time": "18:00-20:00",
+    "title": "晚宴和自由交流环节",
+    "speaker": []
+  }
+]

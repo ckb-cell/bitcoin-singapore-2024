@@ -2,8 +2,13 @@ import Image from 'next/image';
 import Button from '../button';
 import TimeLocation from '../time-location';
 import Link from 'next/link';
+import { getLocale } from '@/lib/context';
+import { getDictionary } from '@/lib/dictionaries';
 
-export default function HeroSection() {
+export default async function HeroSection() {
+  const local = getLocale();
+  const dictionary = await getDictionary(local);
+
   return (
     <div className="w-full h-[480px] lg:h-[540px] bg-[url(/key-vision-top.svg)] bg-right-bottom bg-contain bg-no-repeat">
       <div className="container max-w-[1240px] mx-auto">
@@ -18,11 +23,11 @@ export default function HeroSection() {
         </div>
         <div className="mt-6">
           <Link href="https://lu.ma/vobk70pd" target="_blank">
-            <Button>Register</Button>
+            <Button>{dictionary.register}</Button>
           </Link>
         </div>
         <div className="mt-6">
-          <span>Host</span>
+          <span>{dictionary.host}</span>
           <div className="flex gap-12 mt-4">
             <Link href="https://www.nervos.org" target="_blank">
               <Image src="/nervos.svg" alt="Nervos Network" width={60} height={40} />

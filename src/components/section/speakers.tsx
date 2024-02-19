@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import Title from '../title';
-import speakers from '../../speakers.json';
 import Link from 'next/link';
+import { getDictionary, getSpeakers } from '@/lib/dictionaries';
+import { getLocale } from '@/lib/context';
 
 export interface Speaker {
   name: string;
@@ -42,7 +43,10 @@ function Speaker({ speaker }: { speaker: Speaker }) {
   );
 }
 
-export default function SpeakersSection() {
+export default async function SpeakersSection() {
+  const local = getLocale();
+  const speakers = await getSpeakers(local);
+  const dictionary = await getDictionary(local);
   const rows = Math.floor(speakers.length / 4);
 
   return (
@@ -63,7 +67,7 @@ export default function SpeakersSection() {
           height={1344}
         />
         <div className="max-w-[1240px] mx-auto px-32 xl:px-24">
-          <Title>Speakers</Title>
+          <Title>{dictionary.speakers}</Title>
           <div className="flex flex-col gap-10 mt-16">
             {Array.from({ length: rows }).map((_, index) => (
               <div

@@ -2,8 +2,13 @@ import Image from 'next/image';
 import TimeLocation from '../time-location';
 import Title from '../title';
 import Link from 'next/link';
+import { getLocale } from '@/lib/context';
+import { getDictionary } from '@/lib/dictionaries';
 
-export default function VenueSection() {
+export default async function VenueSection() {
+  const local = getLocale();
+  const dictionary = await getDictionary(local);
+
   return (
     <div className="w-full py-48" id="venue">
       <div className="relative min-h-[480px]">
@@ -24,7 +29,7 @@ export default function VenueSection() {
         <div className="max-w-[1240px] mx-auto px-32 xl:px-24">
           <div className="flex flex-col items-center lg:flex-row lg:items-start gap-4">
             <div className="flex-1">
-              <Title>Venue</Title>
+              <Title>{dictionary.venue}</Title>
               <div className="mt-1">
                 <Link href="https://maps.app.goo.gl/aTuFYwLrg49qff5z9" target="_blank">
                   <Image src="/venue-map.png" alt="Google Map" width={384} height={288} />

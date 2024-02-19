@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Arnaud",
+    "twitter": "@arnaudthephilos",
+    "description": ["LNP/BP 协会董事会成员"],
+    "avatar": "/speaker-arnaud.png"
+  },
+  {
+    "name": "Ben77",
+    "twitter": "@blapta",
+    "description": ["Discoco Labs 创始人", "TaprootAssets 贡献者"],
+    "avatar": "/speaker-ben77.png"
+  },
+  {
+    "name": "BMAN",
+    "twitter": "@BMANLead",
+    "description": ["ABCDE Capital 联合创始人兼合伙人"],
+    "avatar": "/speaker-bman.png"
+  },
+  {
+    "name": "Cipher Wang",
+    "twitter": "@crypcipher",
+    "description": ["CELL Studio 创始人", "RGB++ 协议作者"],
+    "avatar": "/speaker-cipher-wang.png"
+  },
+  {
+    "name": "胡智威",
+    "twitter": "@hu_zhiwei",
+    "description": ["HashKey Capital 技术总监"],
+    "avatar": "/speaker-jeffrey-hu.png"
+  },
+  {
+    "name": "Jan Xie",
+    "twitter": "@busyforking",
+    "description": ["秘猿科技首席执行官", "CKB 首席架构师"],
+    "avatar": "/speaker-jan-xie.png"
+  },
+  {
+    "name": "Matt Quinn",
+    "twitter": "@matt_bitcoin",
+    "description": ["Nervos 基金会执行董事"],
+    "avatar": "/speaker-matt-quinn.png"
+  },
+  {
+    "name": "曾汨",
+    "twitter": "@zengmi2140",
+    "description": ["BTCStudy 贡献者"],
+    "avatar": "/speaker-mi-zeng.png"
+  },
+  {
+    "name": "Octoshi",
+    "twitter": "@realoctoshi",
+    "description": ["Bitcoiner"],
+    "avatar": "/speaker-octoshi.png"
+  },
+  {
+    "name": "Philipp Hoenisch",
+    "twitter": "@bonomat",
+    "description": ["10101 Finance 创始人"],
+    "avatar": "/speaker-philipp-hoenisch.png"
+  },
+  {
+    "name": "张韧",
+    "twitter": "@nirenzang",
+    "description": ["秘猿科技 Vanguard", "Nervos 研究员"],
+    "avatar": "/speaker-ren-zhang.png"
+  },
+  {
+    "name": "Retric Su",
+    "twitter": "@realdigimonkey",
+    "description": ["秘猿科技开发者大使"],
+    "avatar": "/speaker-retric-su.png"
+  },
+  {
+    "name": "张少平",
+    "twitter": "@shaopingzhang",
+    "description": ["星火矿池联合创始人"],
+    "avatar": "/speaker-shaoping-zhang.png"
+  },
+  {
+    "name": "Super Testnet",
+    "twitter": "@super_testnet",
+    "description": ["Freelance Dev Focused on BTC"],
+    "avatar": "/speaker-super-testnet.png"
+  },
+  {
+    "name": "胡翌霖",
+    "twitter": "@epr510",
+    "description": ["清华大学副教授", "华文道创始人"],
+    "avatar": "/speaker-yilin-hu.png"
+  },
+  {
+    "name": "Yong Yu",
+    "twitter": "@yyforyongyu",
+    "description": ["Lightning Labs 工程师"],
+    "avatar": "/speaker-yong-yu.png"
+  }
+]
+

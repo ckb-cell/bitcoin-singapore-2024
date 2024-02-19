@@ -1,11 +1,16 @@
 import Image from 'next/image';
 import Title from '../title';
-import agenda from '../../aganda.json';
-import speakers from '../../speakers.json';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
+import { getLocale } from '@/lib/context';
+import { getAgenda, getDictionary, getSpeakers } from '@/lib/dictionaries';
 
-export default function AgendaSection() {
+export default async function AgendaSection() {
+  const local = getLocale();
+  const agenda = await getAgenda(local);
+  const speakers = await getSpeakers(local);
+  const dictionary = await getDictionary(local);
+
   return (
     <div className="w-full py-20" id="agenda">
       <div className="relative h-[1727px]">
@@ -24,7 +29,7 @@ export default function AgendaSection() {
           height={1727}
         />
         <div className="lg:max-w-[1240px] mx-auto px-32 xl:px-24">
-          <Title>Agenda</Title>
+          <Title>{dictionary.agenda}</Title>
           <div
             className={cn(
               'relative table w-full border-collapse mt-16',

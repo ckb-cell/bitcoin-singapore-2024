@@ -1,8 +1,8 @@
 export const NAV_ITEMS = [
-  { label: 'About', href: '/' },
-  { label: 'Venue', href: '/#venue' },
-  { label: 'Agenda', href: '/#agenda' },
-  { label: 'Speakers', href: '/#speakers' },
-  { label: 'Partners', href: '/#partners' },
+  { label: 'about', href: '/' },
+  { label: 'venue', href: '/#venue' },
+  { label: 'agenda', href: '/#agenda' },
+  { label: 'speakers', href: '/#speakers' },
+  { label: 'partners', href: '/#partners' },
 ];
 

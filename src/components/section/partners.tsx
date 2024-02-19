@@ -2,8 +2,13 @@ import Image from 'next/image';
 import Title from '../title';
 import Link from 'next/link';
 import partners from '../../partners.json';
+import { getLocale } from '@/lib/context';
+import { getDictionary } from '@/lib/dictionaries';
 
-export default function PartnersSection() {
+export default async function PartnersSection() {
+  const local = getLocale();
+  const dictionary = await getDictionary(local);
+
   return (
     <div className="w-full py-20" id="partners">
       <div className="relative h-[1056px]">
@@ -22,9 +27,9 @@ export default function PartnersSection() {
           height={1056}
         />
         <div className="max-w-[1240px] mx-auto px-24">
-          <Title>Partners</Title>
+          <Title>{dictionary.partners}</Title>
           <div className="w-full flex flex-col items-center mt-8">
-            <h3 className="text-[36px]">Host</h3>
+            <h3 className="text-[36px]">{dictionary.host}</h3>
             <div className="flex gap-12 items-center mt-10">
               {partners.host.map((partner) => (
                 <Link key={partner.name} href={partner.link} target="_blank">
@@ -39,7 +44,7 @@ export default function PartnersSection() {
             </div>
           </div>
           <div className="w-full flex flex-col items-center mt-20">
-            <h3 className="text-[20px]">Strategic Partners</h3>
+            <h3 className="text-[20px]">{dictionary.strategicPartners}</h3>
             <div className="flex gap-24 items-center mt-10">
               {partners.strategic.map((partner) => (
                 <Link key={partner.name} href={partner.link} target="_blank">
@@ -54,7 +59,7 @@ export default function PartnersSection() {
             </div>
           </div>
           <div className="w-full flex flex-col items-center mt-20">
-            <h3 className="text-[20px]">Partners</h3>
+            <h3 className="text-[20px]">{dictionary.communityPartners}</h3>
             <div className="flex gap-24 items-center mt-10">
               {partners.partners.map((partner) => (
                 <Link key={partner.name} href={partner.link} target="_blank">
@@ -69,7 +74,7 @@ export default function PartnersSection() {
             </div>
           </div>
           <div className="w-full flex flex-col items-center mt-20">
-            <h3 className="text-[20px]">Media Partners</h3>
+            <h3 className="text-[20px]">{dictionary.mediaPartners}</h3>
             <div className="flex gap-24 items-center mt-10">
               {partners.media.map((partner) => (
                 <Link key={partner.name} href={partner.link} target="_blank">

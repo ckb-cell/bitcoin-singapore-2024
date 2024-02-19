@@ -3,8 +3,13 @@ import Link from 'next/link';
 import LanguageSwitch from './language-switch';
 import { NAV_ITEMS } from '../constants';
 import { Suspense } from 'react';
+import { getLocale } from '@/lib/context';
+import { getDictionary } from '@/lib/dictionaries';
 
-export default function Navbar() {
+export default async function Navbar() {
+  const local = getLocale();
+  const dictionary = await getDictionary(local);
+
   return (
     <div className="sticky top-0 left-0 w-full bg-black z-50 py-4">
       <div className="container max-w-[1240px] mx-auto">
@@ -13,7 +18,7 @@ export default function Navbar() {
             {NAV_ITEMS.map((item) => (
               <li key={item.label}>
                 <Link className="text-xl" href={item.href}>
-                  {item.label}
+                  {dictionary[item.label as keyof typeof dictionary]}
                 </Link>
               </li>
             ))}
