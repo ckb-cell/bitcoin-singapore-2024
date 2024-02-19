@@ -59,7 +59,7 @@ export default async function PartnersSection() {
             </div>
           </div>
           <div className="w-full flex flex-col items-center mt-20">
-            <h3 className="text-[20px]">{dictionary.communityPartners}</h3>
+            <h3 className="text-[20px]">{dictionary.partners}</h3>
             <div className="flex gap-24 items-center mt-10">
               {partners.partners.map((partner) => (
                 <Link key={partner.name} href={partner.link} target="_blank">

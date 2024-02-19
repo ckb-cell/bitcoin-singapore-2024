@@ -1,7 +1,7 @@
 'use client';
 import { cn } from '@/lib/utils';
 import * as Switch from '@radix-ui/react-switch';
-import { useParams, useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 const LANGUAGES = {
   en: 'EN',
@@ -9,12 +9,12 @@ const LANGUAGES = {
 };
 
 export default function LanguageSwitch() {
-  const params = useParams();
+  const searchParams = useSearchParams();
   const router = useRouter();
-  const language = (params.lang ?? 'en') as keyof typeof LANGUAGES;
+  const language = (searchParams.get('lang') ?? 'en') as keyof typeof LANGUAGES;
 
   const onChangeLanguage = () => {
-    router.replace(language === 'en' ? '/zh' : '/');
+    router.replace(language === 'en' ? '/?lang=zh' : '/', { scroll: false });
   };
 
   return (

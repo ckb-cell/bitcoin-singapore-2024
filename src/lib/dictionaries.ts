@@ -19,4 +19,7 @@ const dictionaries = {
   zh: () => import('../locals/zh.json').then((module) => module.default),
 };
 
-export const getDictionary = async (locale: keyof typeof dictionaries) => dictionaries[locale]();
+export const getDictionary = async (locale: keyof typeof dictionaries) => {
+  console.log('getDictionary', locale);
+  return dictionaries[locale]();
+};
