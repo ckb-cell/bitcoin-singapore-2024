@@ -7,6 +7,7 @@ import PartnersSection from '@/components/section/partners';
 import { setLocale } from '@/lib/context';
 import Footer from '@/components/footer';
 import Navbar from '@/components/navbar';
+import { cn } from '@/lib/utils';
 
 export default function Home({ searchParams }: Readonly<{ searchParams: { lang: string } }>) {
   if (searchParams?.lang) {
@@ -14,7 +15,7 @@ export default function Home({ searchParams }: Readonly<{ searchParams: { lang: 
   }
 
   return (
-    <div className="max-w-[1440px] mx-auto pt-4">
+    <div className={cn('max-w-[1440px] mx-auto pt-6', `lang-${searchParams?.lang ?? 'en'}`)}>
       <Navbar />
       <div>
         <HeroSection />

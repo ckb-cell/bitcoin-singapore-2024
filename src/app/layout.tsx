@@ -42,7 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html className="bg-black">
       <body className={fontArticulatCF.className}>
         <main className="bg-black text-white min-h-screen selection:bg-[#FF9900]">
-          <div className="px-5 sm:px-8">{children}</div>
+          <div>{children}</div>
         </main>
       </body>
     </html>

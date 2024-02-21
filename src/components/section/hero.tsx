@@ -10,18 +10,18 @@ export default async function HeroSection() {
   const dictionary = await getDictionary(local);
 
   return (
-    <div className="w-full h-[480px] lg:h-[540px] bg-[url(/key-vision-top.svg)] bg-right-bottom bg-contain bg-no-repeat">
-      <div className="container max-w-[1240px] mx-auto">
+    <div className="w-full h-[460px] lg:h-[540px] bg-[url(/key-vision-top.svg)] bg-right-bottom bg-contain bg-no-repeat">
+      <div className="container max-w-[1240px] mx-auto px-12 lg:px-8 xl:px-0">
         <div>
-          <h1 className="text-5xl sm:text-6xl lg:text-8xl font-bold">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold">
             <span className="text-[#FF9900]">Bitcoin</span> Singapore <br />
           </h1>
-          <span className="block text-5xl sm:text-6xl lg:text-8xl font-bold mt-2">2024</span>
+          <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold mt-2">2024</span>
         </div>
-        <div className="mt-4">
+        <div className="mt-2 lg:mt-4">
           <TimeLocation />
         </div>
-        <div className="mt-6">
+        <div className="mt-2 lg:mt-6">
           <Link href="https://lu.ma/vobk70pd" target="_blank">
             <Button>{dictionary.register}</Button>
           </Link>

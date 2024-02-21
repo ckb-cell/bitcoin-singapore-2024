@@ -20,6 +20,5 @@ const dictionaries = {
 };
 
 export const getDictionary = async (locale: keyof typeof dictionaries) => {
-  console.log('getDictionary', locale);
   return dictionaries[locale]();
 };

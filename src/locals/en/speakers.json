@@ -2,97 +2,148 @@
   {
     "name": "Arnaud",
     "twitter": "@arnaudthephilos",
-    "description": ["Board Member, LNP/BP Association"],
+    "description": [
+      "Board Member, LNP/BP Association"
+    ],
     "avatar": "/speaker-arnaud.png"
   },
   {
     "name": "Ben77",
     "twitter": "@blapta",
-    "description": ["Founder, Discooco Labs", "Contributor, TaprootAssets"],
+    "description": [
+      "Founder, Discooco Labs",
+      "Contributor, TaprootAssets"
+    ],
     "avatar": "/speaker-ben77.png"
   },
   {
     "name": "BMAN",
     "twitter": "@BMANLead",
-    "description": ["Co-Founder & Managing Partner, ABCDE"],
+    "description": [
+      "Co-Founder & Managing Partner, ABCDE"
+    ],
     "avatar": "/speaker-bman.png"
+  },
+  {
+    "name": "Calvin",
+    "twitter": "@kcalvinalvinn",
+    "description": [
+      "Implementer, Utreexo Client"
+    ],
+    "avatar": "/speaker-calvin.png"
   },
   {
     "name": "Cipher Wang",
     "twitter": "@crypcipher",
-    "description": ["Founder, CELL Studio", "Author, RGB++ Protocol"],
+    "description": [
+      "Founder, CELL Studio",
+      "Author, RGB++ Protocol"
+    ],
     "avatar": "/speaker-cipher-wang.png"
-  },
-  {
-    "name": "Jeffrey Hu",
-    "twitter": "@hu_zhiwei",
-    "description": ["Tech Lead, HashKey Capital"],
-    "avatar": "/speaker-jeffrey-hu.png"
   },
   {
     "name": "Jan Xie",
     "twitter": "@busyforking",
-    "description": ["Chief, Cryptape Architect, Nervos"],
+    "description": [
+      "Chief, Cryptape Architect, Nervos"
+    ],
     "avatar": "/speaker-jan-xie.png"
+  },
+  {
+    "name": "Jeffrey Hu",
+    "twitter": "@hu_zhiwei",
+    "description": [
+      "Tech Lead, HashKey Capital"
+    ],
+    "avatar": "/speaker-jeffrey-hu.png"
   },
   {
     "name": "Matt Quinn",
     "twitter": "@matt_bitcoin",
-    "description": ["Executive Director, Nervos Foundation"],
+    "description": [
+      "Executive Director, Nervos Foundation"
+    ],
     "avatar": "/speaker-matt-quinn.png"
   },
   {
     "name": "Mi Zeng",
     "twitter": "@zengmi2140",
-    "description": ["Contributor, BTCStudy"],
+    "description": [
+      "Contributor, BTCStudy"
+    ],
     "avatar": "/speaker-mi-zeng.png"
   },
   {
     "name": "Octoshi",
     "twitter": "@realoctoshi",
-    "description": ["Bitcoiner"],
+    "description": [
+      "Bitcoiner"
+    ],
     "avatar": "/speaker-octoshi.png"
   },
   {
     "name": "Philipp Hoenisch",
     "twitter": "@bonomat",
-    "description": ["Founder, 10101 Finance"],
+    "description": [
+      "Founder, 10101 Finance"
+    ],
     "avatar": "/speaker-philipp-hoenisch.png"
   },
   {
     "name": "Ren Zhang",
     "twitter": "@nirenzang",
-    "description": ["Vanguard, Cryptape", "Researcher, Nervos"],
+    "description": [
+      "Vanguard, Cryptape",
+      "Researcher, Nervos"
+    ],
     "avatar": "/speaker-ren-zhang.png"
   },
   {
     "name": "Retric Su",
     "twitter": "@realdigimonkey",
-    "description": ["Developer Advocate, Cryptape"],
+    "description": [
+      "Developer Advocate, Cryptape"
+    ],
     "avatar": "/speaker-retric-su.png"
   },
   {
     "name": "Shaoping Zhang",
     "twitter": "@shaopingzhang",
-    "description": ["Co-Founder, Spark Pool"],
+    "description": [
+      "Co-Founder, Spark Pool"
+    ],
     "avatar": "/speaker-shaoping-zhang.png"
   },
   {
     "name": "Super Testnet",
     "twitter": "@super_testnet",
-    "description": ["Freelance Dev Focused on BTC"],
+    "description": [
+      "Freelance Dev Focused on BTC"
+    ],
     "avatar": "/speaker-super-testnet.png"
   },
   {
     "name": "Yilin Hu",
     "twitter": "@epr510",
-    "description": ["Associate Professor, Tsinghua University", "Founder, Hesuan Dao"],
+    "description": [
+      "Associate Professor, Tsinghua University",
+      "Founder, Hesuan Dao"
+    ],
     "avatar": "/speaker-yilin-hu.png"
   },
   {
     "name": "Yong Yu",
     "twitter": "@yyforyongyu",
-    "description": ["Infrastructure Engineer, ", "Lightning Labs"],
+    "description": [
+      "Infrastructure Engineer, Lightning Labs"
+    ],
     "avatar": "/speaker-yong-yu.png"
+  },
+  {
+    "name": "Yunwen Liu",
+    "description": [
+      "Researcher, Cryptape"
+    ],
+    "avatar": "/speaker-yunwen-liu.png"
   }
 ]

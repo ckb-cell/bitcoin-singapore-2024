@@ -5,112 +5,141 @@
     "speaker": []
   },
   {
-    "time": "12:30-12:35",
-    "title": "开场",
-    "speaker": []
-  },
-  {
-    "time": "12:35-12:50",
-    "title": "我们为什么追随中本聪？",
+    "time": "12:30-12:45",
+    "title": "开场：我们为什么追随中本聪？",
     "speaker": [
       "Matt Quinn"
     ]
   },
   {
-    "time": "12:50-13:10",
+    "time": "12:40-13:00",
     "title": "Covenants（限制条款）",
     "speaker": [
       "胡智威"
     ]
   },
   {
-    "time": "13:10-13:30",
+    "time": "13:00-13:15",
     "title": "自主保管钱包的现状和未来",
     "speaker": [
       "曾汨"
     ]
   },
   {
-    "time": "13:30-13:50",
+    "time": "13:15-13:30",
+    "title": "闪电网络面临的问题与挑战",
+    "speaker": [
+      "Yong Yu"
+    ]
+  },
+  {
+    "time": "13:30-13:45",
     "title": "闪电网络的用户体验和优化（LSPS）",
     "speaker": [
       "Octoshi"
     ]
   },
   {
-    "time": "13:50-14:10",
+    "time": "13:45-14:00",
     "title": "客户端验证协议与资产",
     "speaker": [
       "Ben77"
     ]
   },
   {
-    "time": "14:10-14:30",
+    "time": "14:00-14:15",
+    "title": "Utreexo",
+    "speaker": [
+      "Calvin"
+    ]
+  },
+  {
+    "time": "14:15-14:30",
     "title": "Ecash（电子现金）",
     "speaker": [
       "张少平"
     ]
   },
   {
-    "time": "14:30-14:50",
+    "time": "14:30-14:45",
     "title": "谨慎日志合约",
     "speaker": [
       "Philipp Hoenisch"
     ]
   },
   {
-    "time": "14:50-15:20",
+    "time": "14:45-15:15",
     "title": "茶歇",
     "speaker": []
   },
   {
-    "time": "15:20-15:40",
+    "time": "15:15-15:30",
     "title": "BitVM",
     "speaker": [
       "Super Testnet"
     ]
   },
   {
-    "time": "15:40-16:00",
+    "time": "15:30-16:45",
     "title": "POW vs. POS",
     "speaker": [
       "张韧"
     ]
   },
   {
-    "time": "16:00-16:20",
+    "time": "16:45-16:00",
+    "title": "侧链生态系统简介",
+    "speaker": []
+  },
+  {
+    "time": "16:00-16:15",
     "title": "比特币作为数字地形",
     "speaker": [
       "胡翌霖"
     ]
   },
   {
-    "time": "16:20-16:40",
+    "time": "16:15-16:30",
+    "title": "UTXO 区块链上的支付通道网络",
+    "speaker": [
+      "Yunwen Liu"
+    ]
+  },
+  {
+    "time": "16:30-16:45",
     "title": "RGB 资产协议",
     "speaker": [
       "Arnaud"
     ]
   },
   {
-    "time": "16:40-17:00",
+    "time": "16:45-17:00",
     "title": "RGB++ 协议的概述与展望",
     "speaker": [
       "Cipher Wang"
     ]
   },
   {
-    "time": "17:00-17:20",
+    "time": "17:00-17:15",
     "title": "Nostr 生态发展现状及问题",
     "speaker": [
       "Retric Su"
     ]
   },
   {
-    "time": "17:20-18:00",
+    "time": "17:15-17:55",
     "title": "圆桌论坛：在 BTC 生态中华语建设者面临的挑战与困难",
     "speaker": [
       "主持人：BMAN",
-      "Jan Xie"
+      "Jan Xie",
+      "Ben77",
+      "Retric Su"
+    ]
+  },
+  {
+    "time": "17:55-18:00",
+    "title": "闭幕致辞",
+    "speaker": [
     ]
   },
   {

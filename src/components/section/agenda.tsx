@@ -4,6 +4,7 @@ import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import { getLocale } from '@/lib/context';
 import { getAgenda, getDictionary, getSpeakers } from '@/lib/dictionaries';
+import SectionBackground from '../section-background';
 
 export default async function AgendaSection() {
   const local = getLocale();
@@ -13,26 +14,16 @@ export default async function AgendaSection() {
 
   return (
     <div className="w-full py-20" id="agenda">
-      <div className="relative h-[1727px]">
-        <Image
-          src="/agenda-background-left.png"
-          alt="agenda"
-          className="hidden lg:block absolute top-0 left-0"
-          width={96}
-          height={1727}
+      <div className="relative">
+        <SectionBackground
+          left="bg-[url(/agenda-background-left.tablet.png)] h-[3040px] lg:bg-[url(/agenda-background-left.png)]"
+          right="bg-[url(/agenda-background-right.tablet.png)] h-[3040px] lg:bg-[url(/agenda-background-right.png)]"
         />
-        <Image
-          src="/agenda-background-right.png"
-          alt="agenda"
-          className="hidden lg:block absolute top-0 right-0"
-          width={96}
-          height={1727}
-        />
-        <div className="lg:max-w-[1240px] mx-auto px-32 xl:px-24">
+        <div className="lg:max-w-[1240px] flex flex-col h-full mx-auto px-16 sm:px-36 xl:px-24">
           <Title>{dictionary.agenda}</Title>
           <div
             className={cn(
-              'relative table w-full border-collapse mt-16',
+              'relative flex flex-col w-full border-collapse mt-16',
               'after:absolute after:top-0 after:left-0 after:border-b after:border-[#484D4E] after:w-full after:h-1 after:scale-y-75',
             )}
           >
@@ -40,16 +31,18 @@ export default async function AgendaSection() {
               return (
                 <div
                   key={item.time}
-                  className={cn('relative table-row text-[22px]', {
+                  className={cn('relative flex flex-col lg:flex-row text-[18px] sm:text-[22px] py-4 zh:py-[21px]', {
                     'after:absolute after:bottom-0 after:left-0 after:border-b after:border-[#484D4E] after:w-full after:h-1 after:scale-y-75':
                       index !== agenda.length - 1,
                   })}
                 >
-                  <span className="table-cell w-[300px] pt-4 pb-7">{item.time}</span>
-                  <span className="table-cell w-[440px] pt-4 pb-7">{item.title}</span>
-                  <div className="table-cell text-right text-[#FF9900] pt-4 pb-7">
+                  <span className="lg:flex-1 max-w-[300px]">{item.time}</span>
+                  <span className="lg:flex-2 max-w-[440px]">{item.title}</span>
+                  <div className="lg:flex-1 min-h-[33px] lg:text-right text-[#FF9900]">
                     {item.speaker.map((name) => {
-                      const twitter = speakers.find((speaker) => name.includes(speaker.name))?.twitter;
+                      const twitter = speakers.find((speaker) =>
+                        name.includes(speaker.name),
+                      )?.twitter;
                       if (twitter) {
                         return (
                           <p key={name}>
