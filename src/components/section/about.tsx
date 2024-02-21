@@ -11,16 +11,16 @@ export default async function AboutSection() {
       <div className="max-w-[1240px] mx-auto px-6 sm:px-12 lg:px-8 xl:px-0">
         <div className="flex flex-col items-center lg:items-start lg:flex-row gap-12 mb-[80px]">
           <div className="flex-1">
-            <p className="text-2xl">
+            <p className="text-lg sm:text-2xl">
               <span className="text-[#FF9900]">Bitcoin</span> Singapore {dictionary.p1}
             </p>
           </div>
           <Image src="/key-vision.svg" alt="Key Vision" width={380} height={380} />
           <div className="flex-1">
-            <p className="text-2xl">{dictionary.p2}</p>
+            <p className="text-lg sm:text-2xl">{dictionary.p2}</p>
           </div>
         </div>
-        <p className="text-2xl">{dictionary.p3}</p>
+        <p className="text-lg sm:text-2xl">{dictionary.p3}</p>
       </div>
     </div>
   );
