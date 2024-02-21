@@ -46,7 +46,8 @@
     "name": "Jan Xie",
     "twitter": "@busyforking",
     "description": [
-      "Chief, Cryptape Architect, Nervos"
+      "Chief, Cryptape",
+      "Architect, Nervos"
     ],
     "avatar": "/speaker-jan-xie.png"
   },
@@ -111,7 +112,7 @@
     "name": "Shaoping Zhang",
     "twitter": "@shaopingzhang",
     "description": [
-      "Co-Founder, Spark Pool"
+      "Co-Founder, SparkPool"
     ],
     "avatar": "/speaker-shaoping-zhang.png"
   },
@@ -119,7 +120,7 @@
     "name": "Super Testnet",
     "twitter": "@super_testnet",
     "description": [
-      "Freelance Dev Focused on BTC"
+      "Contributor, BitVM"
     ],
     "avatar": "/speaker-super-testnet.png"
   },
@@ -128,7 +129,7 @@
     "twitter": "@epr510",
     "description": [
       "Associate Professor, Tsinghua University",
-      "Founder, Hesuan Dao"
+      "Founder, Huawen Dao"
     ],
     "avatar": "/speaker-yilin-hu.png"
   },

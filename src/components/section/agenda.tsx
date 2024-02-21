@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Title from '../title';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
@@ -37,7 +36,7 @@ export default async function AgendaSection() {
                   })}
                 >
                   <span className="lg:flex-1 max-w-[300px]">{item.time}</span>
-                  <span className="lg:flex-2 max-w-[440px]">{item.title}</span>
+                  <span className="lg:flex-2 lg:w-[440px]">{item.title}</span>
                   <div className="lg:flex-1 min-h-[33px] lg:text-right text-[#FF9900]">
                     {item.speaker.map((name) => {
                       const twitter = speakers.find((speaker) =>
