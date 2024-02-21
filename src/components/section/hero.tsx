@@ -11,7 +11,7 @@ export default async function HeroSection() {
 
   return (
     <div className="w-full h-[460px] lg:h-[540px] bg-[url(/key-vision-top.svg)] bg-right-bottom bg-contain bg-no-repeat">
-      <div className="container max-w-[1240px] mx-auto px-12 lg:px-8 xl:px-0">
+      <div className="container max-w-[1240px] mx-auto px-10 sm:px-12 lg:px-8 xl:px-0">
         <div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold">
             <span className="text-[#FF9900]">Bitcoin</span> Singapore <br />
