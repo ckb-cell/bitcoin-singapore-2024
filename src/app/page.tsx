@@ -15,7 +15,7 @@ export default function Home({ searchParams }: Readonly<{ searchParams: { lang: 
   }
 
   return (
-    <div className={cn('max-w-[1440px] mx-auto pt-6', `lang-${searchParams?.lang ?? 'en'}`)}>
+    <div className={cn('max-w-[1440px] mx-auto sm:pt-6', `lang-${searchParams?.lang ?? 'en'}`)}>
       <Navbar />
       <div>
         <HeroSection />

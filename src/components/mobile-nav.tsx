@@ -26,7 +26,7 @@ export default function MobileNav({ dictionary }: MobileNavProps) {
       </Dialog.Trigger>
       <Dialog.Portal>
         <Dialog.Overlay />
-        <Dialog.Content className="fixed top-0 left-0 w-screen h-[400px] backdrop-blur-sm bg-black/75 z-50 py-10 px-12 rounded-b-lg text-white">
+        <Dialog.Content className="fixed top-0 left-0 w-screen h-[400px] backdrop-blur-sm bg-black/75 z-50 pt-4 pb-10 px-12 rounded-b-lg text-white">
           <motion.div initial={{ y: '-100%' }} animate={{ y: 0, transition: { type: 'tween' } }}>
             <div className="pb-4 flex justify-between items-center">
               <Image

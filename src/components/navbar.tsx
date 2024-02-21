@@ -12,7 +12,7 @@ export default async function Navbar() {
   const dictionary = await getDictionary(local);
 
   return (
-    <div className="sticky top-0 left-0 w-full bg-black z-40 py-4 px-12 lg:px-8 xl:px-0">
+    <div className="sticky top-0 left-0 w-full bg-black/75 backdrop-blur-sm z-40 py-4 px-12 lg:px-8 xl:px-0">
       <div className="container max-w-[1240px] mx-auto">
         <nav className="flex items-center justify-between">
           <ul className="hidden sm:flex gap-4 lg:gap-10 items-center">
