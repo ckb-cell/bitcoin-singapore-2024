@@ -10,7 +10,7 @@ export default async function HeroSection() {
   const dictionary = await getDictionary(local);
 
   return (
-    <div className="w-full h-[460px] lg:h-[540px] bg-[url(/key-vision-top.svg)] bg-right-bottom bg-contain bg-no-repeat">
+    <div className="w-full h-[530px] sm:h-[460px] lg:h-[540px] bg-[url(/key-vision-top.mobile.svg)] sm:bg-[url(/key-vision-top.svg)] bg-right-bottom bg-contain bg-no-repeat">
       <div className="container max-w-[1240px] mx-auto px-10 sm:px-12 lg:px-8 xl:px-0">
         <div>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold">
