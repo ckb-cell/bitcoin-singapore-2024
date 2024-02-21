@@ -8,8 +8,8 @@ import { getDictionary } from '@/lib/dictionaries';
 import MobileNav from './mobile-nav';
 
 export default async function Navbar() {
-  const local = getLocale();
-  const dictionary = await getDictionary(local);
+  const locale = getLocale();
+  const dictionary = await getDictionary(locale);
 
   return (
     <div className="sticky top-0 left-0 w-full bg-black/75 backdrop-blur-sm z-40 py-4 px-10 sm:px-12 lg:px-8 xl:px-0">
@@ -18,14 +18,17 @@ export default async function Navbar() {
           <ul className="hidden sm:flex gap-4 lg:gap-10 items-center">
             {NAV_ITEMS.map((item) => (
               <li key={item.label}>
-                <Link className="text-xl" href={item.href}>
+                <Link
+                  className="text-xl"
+                  href={locale !== 'en' ? `/?lang=${locale}${item.href}` : `/${item.href}`}
+                >
                   {dictionary[item.label as keyof typeof dictionary]}
                 </Link>
               </li>
             ))}
           </ul>
           <div className="sm:hidden">
-            <MobileNav dictionary={dictionary} />
+            <MobileNav dictionary={dictionary} locale={locale} />
           </div>
           <div className="flex items-center gap-9">
             <Link href="https://t.me/btcsingapore2024" target="_blank">

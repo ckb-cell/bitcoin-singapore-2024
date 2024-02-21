@@ -10,10 +10,11 @@ import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 
 export type MobileNavProps = {
+  locale: 'en' | 'zh';
   dictionary: Record<string, string>;
 };
 
-export default function MobileNav({ dictionary }: MobileNavProps) {
+export default function MobileNav({ dictionary, locale }: MobileNavProps) {
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
 
@@ -47,7 +48,9 @@ export default function MobileNav({ dictionary }: MobileNavProps) {
                     <div
                       className="text-xl"
                       onClick={() => {
-                        router.replace(item.href);
+                        router.replace(
+                          locale !== 'en' ? `/?lang=${locale}${item.href}` : `/${item.href}`,
+                        );
                         setIsOpen(false);
                       }}
                     >

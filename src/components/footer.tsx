@@ -8,8 +8,8 @@ import { getLocale } from '@/lib/context';
 import { getDictionary } from '@/lib/dictionaries';
 
 export default async function Footer() {
-  const local = getLocale();
-  const dictionary = await getDictionary(local);
+  const locale = getLocale();
+  const dictionary = await getDictionary(locale);
 
   return (
     <div className="w-full pt-20 sm:pt-52">
@@ -29,7 +29,10 @@ export default async function Footer() {
             <ul className="flex flex-col gap-5">
               {NAV_ITEMS.map((item) => (
                 <li key={item.label}>
-                  <Link className="text-xl" href={item.href}>
+                  <Link
+                    className="text-xl"
+                    href={locale !== 'en' ? `/?lang=${locale}${item.href}` : `/${item.href}`}
+                  >
                     {dictionary[item.label as keyof typeof dictionary]}
                   </Link>
                 </li>

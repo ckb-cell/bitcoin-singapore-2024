@@ -10,6 +10,7 @@ import Navbar from '@/components/navbar';
 import { cn } from '@/lib/utils';
 
 export default function Home({ searchParams }: Readonly<{ searchParams: { lang: string } }>) {
+  console.log(searchParams);
   if (searchParams?.lang) {
     setLocale(searchParams.lang as 'en' | 'zh');
   }
