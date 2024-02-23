@@ -17,13 +17,6 @@
   ],
   "strategic": [
     {
-      "name": "LNP/BP Association",
-      "link": "https://twitter.com/lnp_bp",
-      "logo": "/lnp.svg",
-      "width": 100,
-      "height": 80
-    },
-    {
       "name": "Bitlight Labs",
       "link": "https://twitter.com/BitlightLabs",
       "logo": "/bitlight-labs.svg",
