@@ -74,7 +74,7 @@ export default async function SpeakersSection() {
             <div
               className={cn('grid grid-cols-1 sm:grid-cols-2 gap-y-8 mt-8 sm:mt-0', {
                 'lg:grid-cols-4': speakers.length % 2 === 0,
-                'lg:grid-cols-3 px-32': speakers.length % 2 !== 0,
+                'lg:grid-cols-3 sm:px-32': speakers.length % 2 !== 0,
               })}
             >
               {(speakers.length % 4 === 1 || speakers.length % 4 === 2) && (

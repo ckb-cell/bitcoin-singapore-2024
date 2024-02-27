@@ -30,14 +30,18 @@ export default async function AgendaSection() {
               return (
                 <div
                   key={item.time}
-                  className={cn('relative flex flex-col lg:flex-row text-[18px] sm:text-[22px] py-4 zh:py-[21px]', {
-                    'after:absolute after:bottom-0 after:left-0 after:border-b after:border-[#484D4E] after:w-full after:h-1 after:scale-y-75':
-                      index !== agenda.length - 1,
-                  })}
+                  className={cn(
+                    'relative flex flex-col lg:flex-row text-[18px] sm:text-[22px] py-4 zh:py-[21px]',
+                    {
+                      'after:absolute after:bottom-0 after:left-0 after:border-b after:border-[#484D4E] after:w-full after:h-1 after:scale-y-75':
+                        index !== agenda.length - 1,
+                      'bg-[#FF9900]/45 rounded-[10px]': item.speaker.length === 0,
+                    },
+                  )}
                 >
-                  <span className="lg:flex-1 max-w-[300px]">{item.time}</span>
-                  <span className="lg:flex-2 lg:w-[440px]">{item.title}</span>
-                  <div className="lg:flex-1 min-h-[33px] lg:text-right text-[#FF9900]">
+                  <span className="lg:flex-1 max-w-[300px] px-2 sm:px-4">{item.time}</span>
+                  <span className="lg:flex-2 lg:w-[440px] px-2 sm:px-4">{item.title}</span>
+                  <div className="lg:flex-1 min-h-[33px] lg:text-right text-[#FF9900] px-2 sm:px-4">
                     {item.speaker.map((name) => {
                       const twitter = speakers.find((speaker) =>
                         name.includes(speaker.name),

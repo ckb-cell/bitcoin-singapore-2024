@@ -1,148 +1,116 @@
 [
   {
-    "time": "12:00-12:30",
+    "time": "10:00-10:30",
     "title": "Registration",
     "speaker": []
   },
   {
-    "time": "12:30-12:45",
-    "title": "Opening: Why We Follow Satoshi?",
-    "speaker": [
-      "Matt Quinn"
-    ]
+    "time": "10:30-10:50",
+    "title": "Opening",
+    "speaker": ["Jan Xie"]
   },
   {
-    "time": "12:45-13:00",
+    "time": "10:50-11:10",
     "title": "Covenants",
-    "speaker": [
-      "Jeffrey Hu"
-    ]
+    "speaker": ["Jeffrey Hu"]
   },
   {
-    "time": "13:00-13:15",
-    "title": "The Current Situation and Future of Self-custody Wallets",
-    "speaker": [
-      "Mi Zeng"
-    ]
-  },
-  {
-    "time": "13:15-13:30",
-    "title": "The problems and challenges faced by the Lightning Network",
-    "speaker": [
-      "Yong Yu"
-    ]
-  },
-  {
-    "time": "13:30-13:45",
-    "title": "User Experience and Optimization of Lightning Network or LSPS",
-    "speaker": [
-      "Octoshi"
-    ]
-  },
-  {
-    "time": "13:45-14:00",
+    "time": "11:10-11:30",
     "title": "Client Validation Protocols and Assets",
-    "speaker": [
-      "Ben77"
-    ]
+    "speaker": ["Ben77"]
   },
   {
-    "time": "14:00-14:15",
+    "time": "11:30-11:50",
+    "title": "The Current Situation and Future of Self-custody Wallets",
+    "speaker": ["Mi Zeng"]
+  },
+  {
+    "time": "11:50-12:10",
+    "title": "RGB Protocol and Lightning Network",
+    "speaker": ["Arnaud"]
+  },
+  {
+    "time": "12:10-12:30",
+    "title": "Overview and Prospects of the RGB++ Protocol",
+    "speaker": ["Cipher Wang"]
+  },
+  {
+    "time": "12:30-13:30",
+    "title": "Lunch",
+    "speaker": []
+  },
+  {
+    "time": "13:30-13:50",
+    "title": "Why We Follow Satoshi?",
+    "speaker": ["Matt Quinn"]
+  },
+  {
+    "time": "13:50-14:10",
+    "title": "Considerations of designing a Bitcoin Wallet",
+    "speaker": ["Evan Lin"]
+  },
+  {
+    "time": "14:10-14:30",
     "title": "Utreexo",
-    "speaker": [
-      "Calvin"
-    ]
+    "speaker": ["Calvin"]
   },
   {
-    "time": "14:15-14:30",
-    "title": "Ecash",
-    "speaker": [
-      "Shaoping Zhang"
-    ]
+    "time": "14:30-14:50",
+    "title": "User Experience and Optimization of Lightning Network or LSPS",
+    "speaker": ["Octoshi"]
   },
   {
-    "time": "14:30-14:45",
+    "time": "14:50-15:10",
+    "title": "The problems and challenges faced by the Lightning Network",
+    "speaker": ["Yong Yu"]
+  },
+  {
+    "time": "15:10-15:30",
     "title": "Discreet Log Contracts DLC",
-    "speaker": [
-      "Philipp Hoenisch"
-    ]
+    "speaker": ["Philipp Hoenisch"]
   },
   {
-    "time": "14:45-15:15",
+    "time": "15:30-16:00",
     "title": "Tea Break",
     "speaker": []
   },
   {
-    "time": "15:15-15:30",
-    "title": "BitVM",
-    "speaker": [
-      "Super Testnet"
-    ]
+    "time": "16:00-16:20",
+    "title": "Ecash",
+    "speaker": ["Shaoping Zhang"]
   },
   {
-    "time": "15:30-15:45",
-    "title": "POW vs. POS",
-    "speaker": [
-      "Ren Zhang"
-    ]
-  },
-  {
-    "time": "15:45-16:00",
-    "title": "Introduction to Sidechain Ecosystem",
-    "speaker": []
-  },
-  {
-    "time": "16:00-16:15",
-    "title": "Bitcoin as Digital Terrain",
-    "speaker": [
-      "Yilin Hu"
-    ]
-  },
-  {
-    "time": "16:15-16:30",
+    "time": "16:20-16:40",
     "title": "Payment Channel Networks on UTXO Blockchains",
-    "speaker": [
-      "Yunwen Liu"
-    ]
+    "speaker": ["Yunwen Liu"]
   },
   {
-    "time": "16:30-16:45",
-    "title": "RGB Protocol and Lightning Network",
-    "speaker": [
-      "Arnaud"
-    ]
+    "time": "16:40-17:00",
+    "title": "POW vs. POS",
+    "speaker": ["Ren Zhang"]
   },
   {
-    "time": "16:45-17:00",
-    "title": "Overview and Prospects of the RGB++ Protocol",
-    "speaker": [
-      "Cipher Wang"
-    ]
+    "time": "17:00-17:20",
+    "title": "Bitcoin as Digital Terrain",
+    "speaker": ["Yilin Hu"]
   },
   {
-    "time": "17:00-17:15",
+    "time": "17:20-17:40",
     "title": "The Current Status and Issues of Nostr's Ecological Development",
-    "speaker": [
-      "Retric Su"
-    ]
+    "speaker": ["Retric Su"]
   },
   {
-    "time": "17:15-17:55",
+    "time": "17:40-18:00",
+    "title": "BitVM",
+    "speaker": ["Super Testnet"]
+  },
+  {
+    "time": "18:00-18:40",
     "title": "Panel: Challenges and Difficulties Faced by Chinese Builders in the BTC Ecosystem",
-    "speaker": [
-      "Moderator: BMAN",
-      "Jan Xie",
-      "Ben77",
-      "Retric Su"
-    ]
+    "speaker": ["Moderator: BMAN", "Jeff", "Kevin He", "Brutoshi", "Baiyu"]
   },
   {
-    "time": "17:55-18:00",
-    "title": "Closing",
-    "speaker": []
-  },
-  {
-    "time": "18:00-20:00",
+    "time": "18:40-20:30",
     "title": "Dinner & Social Network",
     "speaker": []
   }
