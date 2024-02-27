@@ -8,10 +8,10 @@
     "avatar": "/speaker-arnaud.png"
   },
   {
-    "name": "Baiyu",
+    "name": "白鱼",
     "twitter": "@baiyu2140",
     "description": [
-      "CKB 生态基金市场负责人",
+      "CKB 生态负责人",
       "SeeDAO 联合创始人"
     ],
     "avatar": "/speaker-baiyu.png"
@@ -29,7 +29,7 @@
     "name": "BMAN",
     "twitter": "@BMANLead",
     "description": [
-      "ABCDE Capital 联合创始人兼合伙人"
+      "ABCDE 联合创始人兼管理合伙人"
     ],
     "avatar": "/speaker-bman.png"
   },
@@ -59,7 +59,7 @@
     "avatar": "/speaker-cipher-wang.png"
   },
   {
-    "name": "Evan Lin",
+    "name": "林志宇",
     "twitter": "@evanlinjin",
     "description": [
       "Bitcoin Dev Kit 开发者"
@@ -67,7 +67,7 @@
     "avatar": "/speaker-evan-lin.png"
   },
   {
-    "name": "Jan Xie",
+    "name": "谢晗剑",
     "twitter": "@busyforking",
     "description": [
       "秘猿科技首席执行官",

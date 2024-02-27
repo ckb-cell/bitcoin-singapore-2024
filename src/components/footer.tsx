@@ -77,7 +77,7 @@ export default async function Footer() {
           <div className="flex-1 flex flex-col items-end gap-5">
             <span className="text-xl font-bold">{dictionary.cooperation}</span>
             <Link href="https://t.me/gracegui43" target="_blank" className="flex items-center">
-              <span className="text-xl mr-2">Tetegram</span>
+              <span className="text-xl mr-2">Telegram</span>
               <Image src="/open-link.svg" alt="Telegram" width={14} height={14} />
             </Link>
             <Link href="mailto:grace@deltalabs.pro" className="flex items-center">
