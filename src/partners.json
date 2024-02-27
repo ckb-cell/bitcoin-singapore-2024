@@ -4,23 +4,30 @@
       "name": "Nervos Network",
       "link": "https://twitter.com/NervosNetwork",
       "logo": "/nervos.svg",
-      "width": 155,
+      "width": 156,
       "height": 100
     },
     {
       "name": "ABCDE",
       "link": "https://twitter.com/ABCDELabs",
       "logo": "/abcde.svg",
-      "width": 135,
+      "width": 156,
       "height": 100
     }
   ],
   "strategic": [
     {
+      "name": "imToken",
+      "link": "https://twitter.com/imTokenOfficial",
+      "logo": "/imToken.svg",
+      "width": 180,
+      "height": 64
+    },
+    {
       "name": "Bitlight Labs",
       "link": "https://twitter.com/BitlightLabs",
       "logo": "/bitlight-labs.svg",
-      "width": 207,
+      "width": 200,
       "height": 60
     }
   ],
@@ -29,36 +36,43 @@
       "name": "CKB Ecosystem Fund",
       "link": "https://twitter.com/CKBEcoFund",
       "logo": "/ckb-eco-fund.svg",
-      "width": 136,
-      "height": 48
+      "width": 272,
+      "height": 96
     },
     {
       "name": "CELL Studio",
       "link": "https://twitter.com/ckbcell",
       "logo": "/cell-studio.svg",
-      "width": 209,
-      "height": 45
+      "width": 416,
+      "height": 88
     },
     {
       "name": "SeeDAO",
       "link": "https://twitter.com/see_dao",
       "logo": "/seedao.svg",
-      "width": 144,
-      "height": 32
+      "width": 296,
+      "height": 64
     },
     {
       "name": "Orange Paper",
       "link": "https://orangexyz.mirror.xyz/",
       "logo": "/orange-paper.svg",
-      "width": 125,
-      "height": 40
+      "width": 248,
+      "height": 80
     },
     {
       "name": "Delta Labs",
       "link": "https://twitter.com/0x_DeltaLabs",
       "logo": "/delta-labs.svg",
-      "width": 153,
-      "height": 35
+      "width": 308,
+      "height": 68
+    },
+    {
+      "name": "Bitlayer",
+      "link": "https://twitter.com/0x_DeltaLabs",
+      "logo": "/bitlayer.svg",
+      "width": 288,
+      "height": 68
     }
   ],
   "media": [
@@ -96,6 +110,42 @@
       "logo": "/panews.svg",
       "width": 100,
       "height": 35
+    },
+
+    {
+      "name": "Coinpedia",
+      "link": "https://events.coinpedia.org",
+      "logo": "/coinpedia.svg",
+      "width": 80,
+      "height": 25
+    },
+    {
+      "name": "Crypto Events",
+      "link": "https://cryptoevents.global/",
+      "logo": "/cryptoevents.svg",
+      "width": 182,
+      "height": 25
+    },
+    {
+      "name": "BlockTempo",
+      "link": "https://www.blocktempo.com/",
+      "logo": "/blocktempo.svg",
+      "width": 140,
+      "height": 30
+    },
+    {
+      "name": "Cointime",
+      "link": "https://cn.cointime.ai/",
+      "logo": "/cointime.svg",
+      "width": 90,
+      "height": 25
+    },
+    {
+      "name": "MarsBit",
+      "link": "https://marsbit.co/",
+      "logo": "/marsbit.svg",
+      "width": 105,
+      "height": 30
     }
   ]
 }

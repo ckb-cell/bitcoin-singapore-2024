@@ -19,10 +19,18 @@ export default async function Footer() {
           'after:absolute after:top-0 after:left-0 after:border-b after:border-[#484D4E] after:w-full after:h-1',
         )}
       >
-        <div className="lg:hidden pt-12">
-          <h1 className="text-[32px] sm:text-[65px] leading-none font-bold">
-            <span className="text-[#FF9900]">Bitcoin</span> Singapore 2024
+        <div className="lg:hidden pt-12 flex flex-wrap gap-3">
+          <h1 className="text-[32px] sm:text-[65px] leading-none font-bold flex items-start">
+            <Image
+              className="inline-block h-[26px] w-[110px] sm:h-[55px] sm;w-[216px] mr-2"
+              src="/btc.svg"
+              alt="Bitcoin"
+              width={316}
+              height={80}
+            />
+            <span>Singapore</span>
           </h1>
+          <span className="text-[32px] sm:text-[65px] leading-none font-bold">2024</span>
         </div>
         <div className="flex justify-between pt-8 gap-8">
           <div className="flex-1 flex flex-col gap-5">
@@ -44,9 +52,19 @@ export default async function Footer() {
           </div>
           <div className="hidden sm:block relative max-w-[860px] pb-20 overflow-hidden">
             <div className="hidden lg:block absolute right-0 bottom-0 w-[635px] h-[180px] bg-[url(/key-vision-bottom.svg)] bg-right-bottom bg-contain bg-no-repeat" />
-            <h1 className="text-[78px] leading-none font-bold hidden lg:block">
-              <span className="text-[#FF9900]">Bitcoin</span> Singapore 2024
-            </h1>
+            <div className="hidden lg:flex flex-wrap gap-3">
+              <h1 className="text-[78px] leading-none font-bold flex items-start">
+                <Image
+                  className="inline-block h-[64px] w-[265px] mr-2"
+                  src="/btc.svg"
+                  alt="Bitcoin"
+                  width={316}
+                  height={80}
+                />
+                <span>Singapore</span>
+              </h1>
+              <span className="text-[78px] leading-none font-bold">2024</span>
+            </div>
             <div className="lg:mt-8">
               <TimeLocation />
             </div>
