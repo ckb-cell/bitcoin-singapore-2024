@@ -5,6 +5,7 @@ import partners from '../../partners.json';
 import { getLocale } from '@/lib/context';
 import { getDictionary } from '@/lib/dictionaries';
 import SectionBackground from '../section-background';
+import { cn } from '@/lib/utils';
 
 export default async function PartnersSection() {
   const local = getLocale();
@@ -74,7 +75,10 @@ export default async function PartnersSection() {
                 {partners.media.map((partner) => (
                   <Link key={partner.name} href={partner.link} target="_blank">
                     <Image
-                      className="h-[26px] lg:h-[28px] w-auto"
+                      className={cn("h-[26px] lg:h-[28px] w-auto", {
+                        'lg:h-[22px]': partner.name === 'TechFlow' || partner.name === 'Cointime',
+                        'lg:h-[36px]': partner.name === 'BlockTempo',
+                      })}
                       src={partner.logo}
                       alt={partner.name}
                       width={partner.width}

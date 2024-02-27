@@ -37,9 +37,16 @@ export default function MobileNav({ dictionary, locale }: MobileNavProps) {
                 height={16}
                 onClick={() => setIsOpen(false)}
               />
-              <span className="text-3xl font-bold">
-                <span className="text-[#FF9900]">Bitcoin</span> Singapore
-              </span>
+              <div className="text-3xl font-bold flex items-start">
+                <Image
+                  className="block mr-2 h-[28px] w-[105px]"
+                  src="/btc.svg"
+                  alt="Bitcoin"
+                  width={105}
+                  height={28}
+                />
+                <span>Singapore</span>
+              </div>
             </div>
             <div className="flex justify-between pt-6 border-t border-[#DDE3E3]">
               <ul>
