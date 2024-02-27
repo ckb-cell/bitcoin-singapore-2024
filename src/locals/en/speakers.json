@@ -8,6 +8,15 @@
     "avatar": "/speaker-arnaud.png"
   },
   {
+    "name": "Baiyu",
+    "twitter": "@baiyu2140",
+    "description": [
+      "CMO, CKB Eco Fund",
+      "Co-Founder, SeeDAO"
+    ],
+    "avatar": "/speaker-baiyu.png"
+  },
+  {
     "name": "Ben77",
     "twitter": "@blapta",
     "description": [
@@ -23,6 +32,14 @@
       "Co-Founder & Managing Partner, ABCDE"
     ],
     "avatar": "/speaker-bman.png"
+  },
+  {
+    "name": "Brutoshi",
+    "twitter": "@brutoshi_",
+    "description": [
+      "Co-Founder, Wizz Wallet"
+    ],
+    "avatar": "/speaker-brutoshi.png"
   },
   {
     "name": "Calvin",
@@ -42,6 +59,14 @@
     "avatar": "/speaker-cipher-wang.png"
   },
   {
+    "name": "Evan Lin",
+    "twitter": "@evanlinjin",
+    "description": [
+      "Developer, Bitcoin Dev Kit"
+    ],
+    "avatar": "/speaker-evan-lin.png"
+  },
+  {
     "name": "Jan Xie",
     "twitter": "@busyforking",
     "description": [
@@ -51,12 +76,29 @@
     "avatar": "/speaker-jan-xie.png"
   },
   {
+    "name": "Jeff",
+    "twitter": "@BitmapTech",
+    "description": [
+      "Founder, Merlin Chain"
+    ],
+    "avatar": "/speaker-jeff.png"
+  },
+  {
     "name": "Jeffrey Hu",
     "twitter": "@hu_zhiwei",
     "description": [
       "Tech Lead, HashKey Capital"
     ],
     "avatar": "/speaker-jeffrey-hu.png"
+  },
+  {
+    "name": "Kevin He",
+    "twitter": "@0xkevinhe",
+    "description": [
+      "Co-Founder, Bitlayer Labs",
+      "Founder, BitVM CN Community"
+    ],
+    "avatar": "/speaker-kevin-he.png"
   },
   {
     "name": "Matt Quinn",

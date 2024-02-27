@@ -8,6 +8,15 @@
     "avatar": "/speaker-arnaud.png"
   },
   {
+    "name": "Baiyu",
+    "twitter": "@baiyu2140",
+    "description": [
+      "CKB 生态基金 CMO",
+      "SeeDAO 创始人"
+    ],
+    "avatar": "/speaker-baiyu.png"
+  },
+  {
     "name": "Ben77",
     "twitter": "@blapta",
     "description": [
@@ -25,6 +34,22 @@
     "avatar": "/speaker-bman.png"
   },
   {
+    "name": "Brutoshi",
+    "twitter": "@brutoshi_",
+    "description": [
+      "Wizz Wallet 创始人"
+    ],
+    "avatar": "/speaker-brutoshi.png"
+  },
+  {
+    "name": "Calvin",
+    "twitter": "@kcalvinalvinn",
+    "description": [
+      "Implementer, Utreexo Client"
+    ],
+    "avatar": "/speaker-calvin.png"
+  },
+  {
     "name": "Cipher Wang",
     "twitter": "@crypcipher",
     "description": [
@@ -32,6 +57,31 @@
       "RGB++ 协议作者"
     ],
     "avatar": "/speaker-cipher-wang.png"
+  },
+  {
+    "name": "Evan Lin",
+    "twitter": "@evanlinjin",
+    "description": [
+      "Bitcoin Dev Kit 开发者"
+    ],
+    "avatar": "/speaker-evan-lin.png"
+  },
+  {
+    "name": "Jan Xie",
+    "twitter": "@busyforking",
+    "description": [
+      "秘猿科技首席执行官",
+      "CKB 首席架构师"
+    ],
+    "avatar": "/speaker-jan-xie.png"
+  },
+  {
+    "name": "Jeff",
+    "twitter": "@BitmapTech",
+    "description": [
+      "Merlin Chain 创始人"
+    ],
+    "avatar": "/speaker-jeff.png"
   },
   {
     "name": "胡智威",
@@ -42,13 +92,13 @@
     "avatar": "/speaker-jeffrey-hu.png"
   },
   {
-    "name": "Jan Xie",
-    "twitter": "@busyforking",
+    "name": "Kevin He",
+    "twitter": "@0xkevinhe",
     "description": [
-      "秘猿科技首席执行官",
-      "CKB 首席架构师"
+      "Bitlayer Labs 创始人",
+      "BitVM CN Community 创始人"
     ],
-    "avatar": "/speaker-jan-xie.png"
+    "avatar": "/speaker-kevin-he.png"
   },
   {
     "name": "Matt Quinn",
@@ -131,5 +181,12 @@
       "Lightning Labs 工程师"
     ],
     "avatar": "/speaker-yong-yu.png"
+  },
+  {
+    "name": "Yunwen Liu",
+    "description": [
+      "Cryptape 研究员"
+    ],
+    "avatar": "/speaker-yunwen-liu.png"
   }
 ]
